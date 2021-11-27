@@ -1,0 +1,118 @@
+2021-11-25T10:31:34+00:00 NOTICE sync_store :: posting data :: Array
+(
+    [store_post] => Array
+        (
+            [id] => 619f62c7f27c0
+            [is_syncing] => 
+            [platform] => woocommerce
+            [list_id] => 7c8280ea52
+            [name] => Naturkompanitwo
+            [domain] => https://naturkompanitva.ashish.se
+            [email_address] => ashisharyal64@gmail.com
+            [currency_code] => SEK
+            [money_format] => kr
+            [primary_locale] => sv_SE
+            [timezone] => Europe/Stockholm
+            [phone] => 12423546
+            [address] => Array
+                (
+                    [address1] => Södra Förstadsgatan 32
+                    [city] => Malmö
+                    [province] => Skåne
+                    [postal_code] => 211 43
+                    [country] => SE
+                    [country_code] => SE
+                    [phone] => 12423546
+                    [company] => Naturkompanitwo
+                )
+
+        )
+
+)
+
+2021-11-25T10:31:38+00:00 NOTICE sync_store :: posting data :: Array
+(
+    [store_post] => Array
+        (
+            [id] => 619f62c7f27c0
+            [is_syncing] => 
+            [platform] => woocommerce
+            [list_id] => 7c8280ea52
+            [name] => Naturkompanitwo
+            [domain] => https://naturkompanitva.ashish.se
+            [email_address] => ashisharyal64@gmail.com
+            [currency_code] => SEK
+            [money_format] => kr
+            [primary_locale] => sv_SE
+            [timezone] => Europe/Stockholm
+            [phone] => 12423546
+            [address] => Array
+                (
+                    [address1] => Södra Förstadsgatan 32
+                    [city] => Malmö
+                    [province] => Skåne
+                    [postal_code] => 211 43
+                    [country] => SE
+                    [country_code] => SE
+                    [phone] => 12423546
+                    [company] => Naturkompanitwo
+                )
+
+        )
+
+)
+
+2021-11-25T10:31:41+00:00 NOTICE sync_store :: posting data :: Array
+(
+    [store_post] => Array
+        (
+            [id] => 619f62c7f27c0
+            [is_syncing] => 
+            [platform] => woocommerce
+            [list_id] => 7c8280ea52
+            [name] => Naturkompanitwo
+            [domain] => https://naturkompanitva.ashish.se
+            [email_address] => ashisharyal64@gmail.com
+            [currency_code] => SEK
+            [money_format] => kr
+            [primary_locale] => sv_SE
+            [timezone] => Europe/Stockholm
+            [phone] => 12423546
+            [address] => Array
+                (
+                    [address1] => Södra Förstadsgatan 32
+                    [city] => Malmö
+                    [province] => Skåne
+                    [postal_code] => 211 43
+                    [country] => SE
+                    [country_code] => SE
+                    [phone] => 12423546
+                    [company] => Naturkompanitwo
+                )
+
+        )
+
+)
+
+2021-11-25T10:31:43+00:00 NOTICE mailchimp-woocommerce-sync.started :: Starting Sync :: Thu, Nov 25, 2021 10:31 AM
+2021-11-25T10:31:43+00:00 NOTICE action_scheduler.queue_job :: MailChimp_WooCommerce_Process_Coupons queued :: page 1
+2021-11-25T10:32:27+00:00 NOTICE sync.full_sync_manager.queue :: Starting PRODUCTS queueing.
+2021-11-25T10:32:27+00:00 NOTICE action_scheduler.queue_job :: MailChimp_WooCommerce_Process_Products queued :: page 1
+2021-11-25T10:32:27+00:00 NOTICE action_scheduler.queue_job :: MailChimp_WooCommerce_Process_Products queued :: page 2
+2021-11-25T10:32:29+00:00 NOTICE coupon_sync.completed :: Done with the coupon queueing.
+2021-11-25T10:32:29+00:00 NOTICE action_scheduler.queue_job :: MailChimp_WooCommerce_Single_Product queued :: obj_id 15
+2021-11-25T10:32:29+00:00 NOTICE action_scheduler.queue_job :: MailChimp_WooCommerce_Single_Product queued :: obj_id 17
+2021-11-25T10:32:29+00:00 NOTICE action_scheduler.queue_job :: MailChimp_WooCommerce_Single_Product queued :: obj_id 25
+2021-11-25T10:32:29+00:00 NOTICE action_scheduler.queue_job :: MailChimp_WooCommerce_Single_Product queued :: obj_id 41
+2021-11-25T10:32:31+00:00 NOTICE product_sync.completed :: Done with the product queuing
+2021-11-25T10:32:32+00:00 NOTICE product_submit.success :: addStoreProduct :: #15
+2021-11-25T10:32:32+00:00 NOTICE product_submit.success :: addStoreProduct :: #17
+2021-11-25T10:32:33+00:00 NOTICE product_submit.success :: addStoreProduct :: #25
+2021-11-25T10:32:34+00:00 NOTICE product_submit.success :: addStoreProduct :: #41
+2021-11-25T10:33:18+00:00 NOTICE action_scheduler.queue_job :: MailChimp_WooCommerce_Process_Orders queued :: page 1
+2021-11-25T10:33:20+00:00 NOTICE order_sync.completed :: Done with the order queueing.
+2021-11-25T10:33:41+00:00 NOTICE sync.completed :: Finished Sync :: Thu, Nov 25, 2021 10:33 AM (total time: 00:01:58)
+2021-11-25T10:51:17+00:00 NOTICE action_scheduler.queue_job :: MailChimp_WooCommerce_Single_Product starts in 5 seconds :: obj_id 41
+2021-11-25T10:51:24+00:00 NOTICE product_submit.success :: updateStoreProduct :: #41
+2021-11-25T10:52:09+00:00 NOTICE action_scheduler.queue_job :: MailChimp_WooCommerce_Single_Product starts in 5 seconds :: obj_id 41
+2021-11-25T10:52:19+00:00 NOTICE product_submit.success :: updateStoreProduct :: #41

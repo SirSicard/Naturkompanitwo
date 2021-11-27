@@ -1,0 +1,1768 @@
+# Translation of Plugins - Really Simple SSL - Stable (latest release) in Swedish
+# This file is distributed under the same license as the Plugins - Really Simple SSL - Stable (latest release) package.
+msgid ""
+msgstr ""
+"PO-Revision-Date: 2021-10-19 09:57:19+0000\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: GlotPress/3.0.0-alpha.2\n"
+"Language: sv_SE\n"
+"Project-Id-Version: Plugins - Really Simple SSL - Stable (latest release)\n"
+
+#: lets-encrypt/wizard/templates/content.php:18
+msgid "Reset Let's Encrypt"
+msgstr "Återställ Let's Encrypt"
+
+#: lets-encrypt/wizard/config/steps.php:123
+msgid "Checking if Terms & Conditions are accepted..."
+msgstr "Kontrollerar om villkoren har accepterats …"
+
+#: lets-encrypt/wizard/class-wizard.php:840
+msgid "Save and continue"
+msgstr "Spara och fortsätt"
+
+#: lets-encrypt/class-letsencrypt-handler.php:941
+msgid "The Terms & Conditions were not accepted. Please accept in the general settings."
+msgstr "Villkoren har inte accepterats. Acceptera dem under allmänna inställningar."
+
+#: lets-encrypt/class-letsencrypt-handler.php:937
+msgid "Terms & Conditions are accepted."
+msgstr "Villkoren har accepterats."
+
+#: class-admin.php:3328
+msgid "HttpOnly Secure cookies have been set automatically!"
+msgstr "Cookies för HttpOnly Secure har angivits automatiskt!"
+
+#: lets-encrypt/wizard/templates/dns-verification.php:21
+msgid "Value"
+msgstr "Värde"
+
+#: lets-encrypt/wizard/templates/dns-verification.php:20
+msgid "domain"
+msgstr "domän"
+
+#: class-admin.php:3407
+msgid "As Really Simple SSL handles all the functionality this plugin provides, we recommend to disable this plugin to prevent unexpected behaviour."
+msgstr "Eftersom ”Really Simple SSL” hanterar alla funktioner som detta tillägg tillhandahåller rekommenderar vi att du inaktiverar detta tillägg för att förhindra oväntat beteende."
+
+#: class-admin.php:3407
+msgid "We have detected the %s plugin on your website."
+msgstr "Vi har upptäckt tillägget %s på din webbplats."
+
+#: class-admin.php:564
+msgid "This detection method is not 100% accurate. If you’re certain an SSL certificate is present, please check “Override SSL detection” to continue activating SSL."
+msgstr "Denna identifieringsmetod är inte 100% exakt. Markera ”Åsidosätt SSL-detektering” för att fortsätta aktiveringen av SSL om du är säker på att det finns ett SSL-certifikat."
+
+#: class-admin.php:562
+msgid "No SSL certificate has been detected."
+msgstr "Inget SSL-certifikat har upptäckts."
+
+#: lets-encrypt/wizard/notices.php:99
+msgid "Read more about this add on."
+msgstr "Läs mer om denna utökning."
+
+#: lets-encrypt/class-letsencrypt-handler.php:450
+msgid "If you entered your DNS records before, they need to be changed."
+msgstr "Om du lagt in dina DNS-poster tidigare, behöver de ändras."
+
+#: lets-encrypt/class-letsencrypt-handler.php:447
+msgid "Order ID mismatch, regenerate order."
+msgstr "Beställnings-ID matchar inte, återskapa beställning."
+
+#: class-admin.php:4732 class-multisite.php:237
+msgid "Improve security - Upgrade to Pro"
+msgstr "Förbättra säkerhet – uppgradera till Pro"
+
+#: class-admin.php:3539
+msgid "%sMore info%s"
+msgstr "%sMer information%s"
+
+#: class-admin.php:3093
+msgid "Really Simple SSL pro is not up to date. Update Really Simple SSL pro to ensure compatibility."
+msgstr "Really Simple SSL pro är inte uppdaterat. Uppdatera Really Simple SSL pro för att säkerställa kompatibilitet."
+
+#: class-admin.php:847
+msgid "Override SSL detection"
+msgstr "Åsidosätt SSL-detektering"
+
+#: lets-encrypt/wizard/templates/other-plugins.php:38
+msgid "Our Plugins"
+msgstr "Våra tillägg"
+
+#: lets-encrypt/wizard/templates/other-plugins.php:29
+msgid "Beautiful recipes optimized for Google."
+msgstr "Vackra recept optimerade för Google."
+
+#: lets-encrypt/wizard/templates/other-plugins.php:21
+msgid "The Privacy Suite for WordPress"
+msgstr "Integritetspaketet för WordPress"
+
+#: lets-encrypt/wizard/templates/other-plugins.php:12
+msgid "Easily migrate your website to SSL."
+msgstr "Migrera enkelt din webbplats till SSL."
+
+#: lets-encrypt/wizard/templates/installation.php:35
+msgid "The private key can be uploaded or pasted in the appropriate field on your hosting dashboard."
+msgstr "Den privata nyckeln kan laddas upp eller klistras in i lämpligt fält i adminpanelen hos ditt webbhotell."
+
+#: lets-encrypt/wizard/templates/installation.php:34
+msgid "Private Key (KEY)"
+msgstr "Privat nyckel (NYCKEL)"
+
+#: lets-encrypt/wizard/templates/installation.php:31
+#: lets-encrypt/wizard/templates/installation.php:39
+#: lets-encrypt/wizard/templates/installation.php:46
+msgid "Copy content"
+msgstr "Kopiera innehåll"
+
+#: lets-encrypt/wizard/templates/installation.php:30
+#: lets-encrypt/wizard/templates/installation.php:38
+#: lets-encrypt/wizard/templates/installation.php:45
+msgid "Download"
+msgstr "Ladda ner"
+
+#: lets-encrypt/wizard/templates/installation.php:26
+msgid "This is the certificate, which you need to install in your hosting dashboard."
+msgstr "Detta är det certifikat som du måste installera i adminpanelen hos ditt webbhotell."
+
+#: lets-encrypt/wizard/templates/installation.php:25
+msgid "Certificate (CRT)"
+msgstr "Certifikat (CRT)"
+
+#: lets-encrypt/wizard/templates/installation.php:22
+msgid "Install your certificate."
+msgstr "Installera ditt certifikat."
+
+#: lets-encrypt/wizard/templates/installation.php:14
+msgid "copied!"
+msgstr "kopierad!"
+
+#: lets-encrypt/wizard/templates/generation.php:16
+msgid "Skip DNS check"
+msgstr "Hoppa över DNS-kontroll"
+
+#: lets-encrypt/wizard/templates/generation.php:13
+msgid "If you're sure it's set correctly, you can click the button to skip the DNS check."
+msgstr "Om du är säker på att den är korrekt inställd kan du klicka på knappen för att hoppa över DNS-kontrollen."
+
+#: lets-encrypt/wizard/templates/generation.php:12
+msgid "You can manually check the DNS records in an %sonline tool%s."
+msgstr "Du kan kontrollera DNS-posterna manuellt med ett %sverktyg online%s."
+
+#: lets-encrypt/wizard/templates/generation.php:11
+msgid "We could not check the DNS records. If you just added the record, please check in a few minutes."
+msgstr "Vi kunde inte kontrollera DNS-posterna. Om du precis lagt till posten, kolla om några minuter."
+
+#: lets-encrypt/wizard/templates/directories.php:76
+msgid "Inside the folder called “ssl” create a new folder called “certs”, with 644 writing permissions."
+msgstr "Inuti katalogen ”ssl” skapar du en ny katalog med namnet ”certs” med åtkomsträttigheterna 644."
+
+#: lets-encrypt/wizard/templates/directories.php:66
+msgid "The certificate will get stored in this directory."
+msgstr "Certifikatet kommer att lagras i denna katalog."
+
+#: lets-encrypt/wizard/templates/directories.php:65
+msgid "Create a certs directory"
+msgstr "Skapa en certifikatkatalog"
+
+#: lets-encrypt/wizard/templates/directories.php:57
+msgid "Inside the folder called “ssl” create a new folder called “keys”, with 644 writing permissions."
+msgstr "Inuti mappen ”ssl” skapar du en ny mapp med namnet ”keys” med åtkomsträttigheterna 644."
+
+#: lets-encrypt/wizard/templates/directories.php:54
+#: lets-encrypt/wizard/templates/directories.php:73
+msgid "Create a folder called “ssl”"
+msgstr "Skapa en mapp som heter ”ssl”"
+
+#: lets-encrypt/wizard/templates/directories.php:47
+#: lets-encrypt/wizard/templates/directories.php:66
+msgid "By placing it outside the root folder, it is not accessible over the internet."
+msgstr "Genom att placera den utanför rotkatalogen kan den inte nås från internet."
+
+#: lets-encrypt/wizard/templates/directories.php:47
+msgid "The key directory is needed to store the generated keys."
+msgstr "Nyckelkatalogen behövs för att lagra de genererade nycklarna."
+
+#: lets-encrypt/wizard/templates/directories.php:46
+msgid "Create a key directory"
+msgstr "Skapa en nyckelkatalog"
+
+#: lets-encrypt/wizard/templates/directories.php:39
+msgid "Or you can switch to DNS verification"
+msgstr "Eller så kan du byta till DNS-verifiering"
+
+#: lets-encrypt/wizard/templates/directories.php:35
+#: lets-encrypt/wizard/templates/directories.php:60
+#: lets-encrypt/wizard/templates/directories.php:79
+msgid "Click the refresh button."
+msgstr "Klicka på knappen ”Uppdatera”."
+
+#: lets-encrypt/wizard/templates/directories.php:32
+msgid "Inside the folder called “.well-known” create a new folder called “acme-challenge”, with 644 writing permissions."
+msgstr "Inuti mappen som heter ”.well-known” skapar du en ny mapp som heter ”acme-challenge” med åtkomsträttigheterna 644."
+
+#: lets-encrypt/wizard/templates/directories.php:29
+msgid "Create a folder called “.well-known”"
+msgstr "Skapa en mapp som heter ”.well-known”"
+
+#: lets-encrypt/wizard/templates/directories.php:25
+msgid "Navigate in FTP or File Manager to the root of your WordPress installation:"
+msgstr "Navigera med FTP eller en filhanterare till rotkatalogen för din WordPress-installation:"
+
+#: lets-encrypt/wizard/templates/directories.php:22
+msgid "The challenge directory is used to verify the domain ownership."
+msgstr "”Challenge”-katalogen används för att verifiera äganderätten till domänen."
+
+#: lets-encrypt/wizard/templates/directories.php:21
+msgid "Create a challenge directory"
+msgstr "Skapa en ”challenge”-katalog"
+
+#: lets-encrypt/wizard/templates/directories.php:9
+#: lets-encrypt/wizard/templates/dns-verification.php:7
+#: lets-encrypt/wizard/templates/installation.php:18
+msgid "Next step"
+msgstr "Nästa steg"
+
+#: lets-encrypt/wizard/templates/content.php:22
+msgid "Notifications"
+msgstr "Aviseringar"
+
+#: lets-encrypt/wizard/templates/activate.php:60
+msgid "No SSL certificate has been detected yet. In some cases this takes a few minutes."
+msgstr "Inget SSL-certifikat har upptäckts ännu. I vissa fall tar detta några minuter."
+
+#: lets-encrypt/wizard/templates/activate.php:42
+msgid "Almost ready to activate SSL!"
+msgstr "Nästan redo att aktivera SSL!"
+
+#: lets-encrypt/wizard/templates/activate.php:21
+msgid "SSL was already activated on your website!"
+msgstr "SSL var redan aktiverat på din webbplats!"
+
+#: lets-encrypt/wizard/templates/activate.php:16
+msgid "If you just activated SSL, please check for: "
+msgstr "Om du just har aktiverat SSL, kolla efter: "
+
+#: lets-encrypt/wizard/templates/activate.php:13
+#: lets-encrypt/wizard/templates/activate.php:42
+msgid "In some cases it takes a few minutes for the certificate to get detected. In that case, check back in a few minutes."
+msgstr "I vissa fall tar det några minuter innan certifikatet upptäcks. I så fall, kom tillbaka om några minuter."
+
+#: lets-encrypt/wizard/templates/activate.php:13
+msgid "Your site is secured with a valid SSL certificate!"
+msgstr "Din webbplats är säkrat med ett giltigt SSL-certifikat!"
+
+#: lets-encrypt/wizard/notices.php:155
+#: lets-encrypt/wizard/templates/directories.php:17
+#: lets-encrypt/wizard/templates/directories.php:42
+msgid "Switch to DNS verification"
+msgstr "Byt till DNS-verifiering"
+
+#: lets-encrypt/wizard/notices.php:150
+msgid "Switch to directory verification"
+msgstr "Byt till katalogverifiering"
+
+#: lets-encrypt/wizard/notices.php:149
+msgid "You can switch back to directory verification here."
+msgstr "Du kan byta tillbaka till katalogverifiering här."
+
+#: lets-encrypt/wizard/notices.php:148
+msgid "You have switched to DNS verification."
+msgstr "Du har bytt till DNS-verifiering."
+
+#: lets-encrypt/wizard/notices.php:116
+msgid "Your Key and Certificate directories are not properly protected."
+msgstr "Dina nyckel- och certifikatkataloger är inte korrekt skyddade."
+
+#: lets-encrypt/wizard/notices.php:81
+msgid "Your certificate will be renewed and installed automatically."
+msgstr "Ditt certifikat kommer att förnyas och installeras automatiskt."
+
+#: lets-encrypt/wizard/notices.php:74
+msgid "Automatic renewal of your certificate was not possible. The SSL certificate should be %srenewed%s manually."
+msgstr "Automatisk förnyelse av ditt certifikat var inte möjligt. SSL-certifikatet måste %sförnyas%s manuellt."
+
+#: lets-encrypt/wizard/notices.php:45
+msgid "Your certificate will expire on %s. You can renew it %shere%s."
+msgstr "Ditt certifikat löper ut den %s. Du kan förnya det %shär%s."
+
+#: lets-encrypt/wizard/notices.php:41
+msgid "Your certificate is valid to: %s"
+msgstr "Ditt certifikat är giltigt till: %s"
+
+#: lets-encrypt/wizard/config/steps.php:147
+msgid "Searching for link to SSL installation page on your server..."
+msgstr "Söker efter länk till SSL-installationssida på din server …"
+
+#: lets-encrypt/wizard/config/steps.php:144
+#: lets-encrypt/wizard/templates/menu.php:2
+msgid "Installation"
+msgstr "Installation"
+
+#: lets-encrypt/wizard/config/steps.php:120
+msgid "We will now generate your SSL Certificate"
+msgstr "Vi kommer nu att generera ditt SSL-certifikat"
+
+#: lets-encrypt/wizard/config/steps.php:119
+msgid "Generation"
+msgstr "Generering"
+
+#: lets-encrypt/wizard/config/steps.php:104
+#: lets-encrypt/wizard/config/steps.php:129
+msgid "Creating account..."
+msgstr "Skapar konto …"
+
+#: lets-encrypt/wizard/config/steps.php:101
+msgid "DNS Verification"
+msgstr "DNS-verifiering"
+
+#: lets-encrypt/wizard/config/steps.php:85
+msgid "Checking permissions..."
+msgstr "Kontrollerar behörigheter …"
+
+#: lets-encrypt/wizard/config/steps.php:79
+msgid "Checking certs directory..."
+msgstr "Kontrollerar ”certs”-katalogen …"
+
+#: lets-encrypt/wizard/config/steps.php:73
+msgid "Checking key directory..."
+msgstr "Kontrollerar nyckelkatalogen …"
+
+#: lets-encrypt/wizard/config/steps.php:67
+msgid "Checking challenge directory..."
+msgstr "Kontrollerar ”challenge”-katalogen …"
+
+#: lets-encrypt/wizard/config/steps.php:64
+msgid "Directories"
+msgstr "Kataloger"
+
+#: lets-encrypt/wizard/config/steps.php:55
+msgid "Hosting"
+msgstr "Webbhotell"
+
+#: lets-encrypt/wizard/config/steps.php:45
+msgid "General settings"
+msgstr "Allmänna inställningar"
+
+#: lets-encrypt/wizard/config/steps.php:37
+msgid "Checking for website configuration..."
+msgstr "Kontrollerar webbplatsens konfiguration …"
+
+#: lets-encrypt/wizard/config/steps.php:32
+msgid "Checking alias domain..."
+msgstr "Kontrollerar aliasdomän …"
+
+#: lets-encrypt/wizard/config/steps.php:27
+msgid "Checking server software..."
+msgstr "Kontrollerar serverprogramvara …"
+
+#: lets-encrypt/wizard/config/steps.php:22
+msgid "Checking if CURL is available..."
+msgstr "Kontrollerar om CURL är tillgängligt …"
+
+#: lets-encrypt/wizard/config/steps.php:17
+msgid "Checking SSL certificate..."
+msgstr "Kontrollerar SSL-certifikat …"
+
+#: lets-encrypt/wizard/config/steps.php:12
+msgid "Checking PHP version..."
+msgstr "Kontrollerar PHP-version …"
+
+#: lets-encrypt/wizard/config/steps.php:9
+msgid "Detected status of your setup."
+msgstr "Upptäckt status för din installation."
+
+#: lets-encrypt/wizard/config/steps.php:8
+msgid "System Status"
+msgstr "Systemstatus"
+
+#: lets-encrypt/wizard/config/questions.php:281
+msgid "Plesk password"
+msgstr "Lösenord för Plesk"
+
+#: lets-encrypt/wizard/config/questions.php:264
+msgid "You can find your Plesk username and password in %s"
+msgstr "Du hittar ditt användarnamn och lösenord för Plesk i %s"
+
+#: lets-encrypt/wizard/config/questions.php:263
+msgid "Plesk username"
+msgstr "Användarnamn för Plesk"
+
+#: lets-encrypt/wizard/config/questions.php:246
+msgid "Plesk host"
+msgstr "Plesk-server"
+
+#: lets-encrypt/wizard/config/questions.php:234
+msgid "You can find your api key %shere%s (make sure you're logged in with your main account)."
+msgstr "Du kan hitta din API-nyckel %shär%s (se till att du är inloggad med ditt huvudkonto)."
+
+#: lets-encrypt/wizard/config/questions.php:231
+msgid "CloudWays api key"
+msgstr "API-nyckel för CloudWays"
+
+#: lets-encrypt/wizard/config/questions.php:218
+msgid "CloudWays user email"
+msgstr "Användarens e-post för CloudWays"
+
+#: lets-encrypt/wizard/config/questions.php:200
+msgid "DirectAdmin password"
+msgstr "Lösenord för DirectAdmin"
+
+#: lets-encrypt/wizard/config/questions.php:183
+msgid "DirectAdmin username"
+msgstr "Användarnamn för DirectAdmin"
+
+#: lets-encrypt/wizard/config/questions.php:165
+msgid "DirectAdmin host"
+msgstr "DirectAdmin-server"
+
+#: lets-encrypt/wizard/config/questions.php:149
+msgid "CPanel password"
+msgstr "Lösenord för CPanel"
+
+#: lets-encrypt/wizard/config/questions.php:132
+msgid "CPanel username"
+msgstr "Användarnamn för CPanel"
+
+#: lets-encrypt/wizard/config/questions.php:114
+msgid "CPanel host"
+msgstr "CPanel-server"
+
+#: lets-encrypt/wizard/config/questions.php:103
+msgid "Hosting provider"
+msgstr "Webbhotell"
+
+#: lets-encrypt/wizard/config/questions.php:86
+msgid "Include alias domain too?"
+msgstr "Vill du även inkludera en aliasdomän?"
+
+#: lets-encrypt/wizard/config/questions.php:84
+msgid "This will include both the www. and non-www. version of your domain."
+msgstr "Detta kommer inkludera både www- och icke-www-versionen för din domän."
+
+#: lets-encrypt/wizard/config/questions.php:72
+#: lets-encrypt/wizard/config/steps.php:51
+msgid "Domain"
+msgstr "Domän"
+
+#: lets-encrypt/wizard/config/questions.php:52
+msgid "Terms & Conditions"
+msgstr "Användarvillkor"
+
+#: lets-encrypt/wizard/config/questions.php:42
+#: lets-encrypt/wizard/config/questions.php:73
+msgid "This field is prefilled based on your configuration"
+msgstr "Detta fält är förifyllt baserat på din konfiguration"
+
+#: lets-encrypt/wizard/config/questions.php:41
+msgid "Email address"
+msgstr "E-postadress"
+
+#: lets-encrypt/wizard/config/questions.php:39
+msgid "This email address will used to create a Let's Encrypt account. This is also where you will receive renewal notifications."
+msgstr "Denna e-postadress används för att skapa ett Let's Encrypt-konto. Det är också här du kommer att få aviseringar om förnyelse."
+
+#: lets-encrypt/wizard/config/class-config.php:530
+msgid "No"
+msgstr "Nej"
+
+#: lets-encrypt/wizard/config/class-config.php:529
+msgid "Yes"
+msgstr "Ja"
+
+#: lets-encrypt/wizard/class-wizard.php:966
+#: lets-encrypt/wizard/config/class-config.php:536
+msgid "I don't know, or not listed, proceed with installation"
+msgstr "Jag vet inte eller listas inte, fortsätt med installation"
+
+#: lets-encrypt/wizard/class-wizard.php:897
+msgid "Go to dashboard"
+msgstr "Gå till adminpanel"
+
+#: lets-encrypt/wizard/class-wizard.php:831
+msgid "Previous"
+msgstr "Föregående"
+
+#: grid/templates/grid-container.php:6
+#: lets-encrypt/wizard/templates/content.php:8
+msgid "Changes saved successfully"
+msgstr "Ändringar sparades utan problem"
+
+#: lets-encrypt/wizard/class-wizard.php:650
+msgid "If this user stops editing, the lock will expire after %s minutes."
+msgstr "Om denna användare slutar redigera kommer spärren löpa ut efter %s minuter."
+
+#: lets-encrypt/wizard/class-wizard.php:402
+msgid "Before you begin!"
+msgstr "Innan du börjar!"
+
+#: lets-encrypt/wizard/class-wizard.php:180
+msgid "Attempt %s."
+msgstr "Försök %s."
+
+#: lets-encrypt/wizard/class-wizard.php:86
+msgid "Checking for subdomain setup..."
+msgstr "Kontrollerar eventuell konfiguration av subdomän …"
+
+#: lets-encrypt/wizard/class-wizard.php:63
+#: lets-encrypt/wizard/config/steps.php:135
+msgid "Generating SSL certificate..."
+msgstr "Genererar SSL-certifikat …"
+
+#: lets-encrypt/wizard/class-wizard.php:57
+msgid "Verifying DNS records..."
+msgstr "Verifierar DNS-poster …"
+
+#: lets-encrypt/wizard/class-field.php:1311
+msgid "Refresh"
+msgstr "Uppdatera"
+
+#: lets-encrypt/wizard/class-field.php:1294
+msgid "Start"
+msgstr "Starta"
+
+#: lets-encrypt/integrations/plesk/plesk.php:88
+msgid "Successfully installed SSL"
+msgstr "SSL installerades utan problem"
+
+#: lets-encrypt/integrations/plesk/functions.php:34
+msgid "Installing SSL certificate using PLESK API..."
+msgstr "Installerar SSL-certifikat med PLESK API …"
+
+#: lets-encrypt/integrations/cpanel/functions.php:102
+#: lets-encrypt/integrations/directadmin/functions.php:30
+msgid "Attempting to install certificate..."
+msgstr "Försöker att installera certifikat …"
+
+#: lets-encrypt/integrations/cpanel/functions.php:95
+msgid "Attempting to set DNS txt record..."
+msgstr "Försöker att skapa en DNS-post av typen ”txt” …"
+
+#: lets-encrypt/integrations/cpanel/functions.php:86
+msgid "Attempting to install certificate using AutoSSL..."
+msgstr "Försöker att installera certifikat med AutoSSL …"
+
+#: lets-encrypt/integrations/cpanel/functions.php:61
+msgid "The system is not ready for the DNS verification yet. Please run the wizard again."
+msgstr "Systemet är inte redo för DNS-verifiering ännu. Kör guiden igen."
+
+#: lets-encrypt/integrations/cpanel/cpanel.php:258
+#: lets-encrypt/integrations/cpanel/cpanel.php:278
+msgid "Could not automatically add TXT record. Please proceed manually, following the steps below."
+msgstr "Kunde inte lägga till TXT-post automatiskt. Fortsätt manuellt genom att följa stegen nedan."
+
+#: lets-encrypt/integrations/cpanel/cpanel.php:254
+#: lets-encrypt/integrations/cpanel/cpanel.php:273
+msgid "Successfully added TXT record."
+msgstr "TXT-poster tillagda."
+
+#: lets-encrypt/integrations/cpanel/cpanel.php:246
+msgid "Login credentials incorrect"
+msgstr "Inloggningsuppgifterna är felaktiga"
+
+#: lets-encrypt/integrations/cpanel/cpanel.php:242
+msgid "Unable to connect to cPanel"
+msgstr "Kan inte ansluta till cPanel"
+
+#: lets-encrypt/integrations/cpanel/cpanel.php:157
+msgid "Errors were reported during installation."
+msgstr "Fel rapporterades under installationen."
+
+#: lets-encrypt/integrations/cpanel/cpanel.php:117
+msgid "Errors were reported during installation"
+msgstr "Fel rapporterades under installationen"
+
+#: lets-encrypt/integrations/cpanel/cpanel.php:111
+#: lets-encrypt/integrations/directadmin/directadmin.php:124
+msgid "SSL successfully installed on %s"
+msgstr "SSL har installerats på %s"
+
+#: lets-encrypt/integrations/cpanel/cpanel.php:64
+#: lets-encrypt/integrations/directadmin/directadmin.php:64
+msgid "No valid list of domains."
+msgstr "Ingen giltig lista med domäner."
+
+#: lets-encrypt/integrations/cloudways/functions.php:51
+msgid "Enabling auto renew..."
+msgstr "Aktiverar automatisk förnyelse …"
+
+#: lets-encrypt/integrations/cloudways/functions.php:45
+msgid "Installing SSL certificate..."
+msgstr "Installerar SSL-certifikat …"
+
+#: lets-encrypt/integrations/cloudways/functions.php:39
+msgid "Retrieving Cloudways server data..."
+msgstr "Hämtar Cloudways serverdata …"
+
+#: lets-encrypt/integrations/cloudways/cloudways.php:259
+msgid "Could not retrieve server list"
+msgstr "Kunde inte hämta serverlista"
+
+#: lets-encrypt/integrations/cloudways/cloudways.php:217
+#: lets-encrypt/integrations/cloudways/cloudways.php:252
+msgid "Successfully retrieved server id and app id"
+msgstr "Tog emot server-ID och app-ID"
+
+#: lets-encrypt/integrations/cloudways/cloudways.php:201
+msgid "Error enabling auto renew for Let's Encrypt"
+msgstr "Fel vid aktivering av automatisk förnyelse för Let's Encrypt"
+
+#: lets-encrypt/integrations/cloudways/cloudways.php:186
+#: lets-encrypt/integrations/cloudways/cloudways.php:192
+msgid "Successfully installed Let's Encrypt"
+msgstr "Let's Encrypt installerades utan problem"
+
+#: lets-encrypt/integrations/cloudways/cloudways.php:166
+msgid "Failed retrieving access token"
+msgstr "Misslyckades att hämta åtkomsttoken"
+
+#: lets-encrypt/functions.php:405
+msgid "You can follow these %sinstructions%s."
+msgstr "Du kan följa dessa %sinstruktioner%s."
+
+#: lets-encrypt/functions.php:394 lets-encrypt/functions.php:398
+#: lets-encrypt/functions.php:406
+msgid "After completing the installation, you can continue to the next step to complete your configuration."
+msgstr "Efter att ha slutfört installationen kan du fortsätta till nästa steg för att slutföra din konfiguration."
+
+#: lets-encrypt/functions.php:389
+msgid "Go to installation"
+msgstr "Gå till installation"
+
+#: lets-encrypt/functions.php:388
+msgid "Go to activation"
+msgstr "Gå till aktivering"
+
+#: lets-encrypt/functions.php:387
+msgid "Please activate it on your dashboard %smanually%s"
+msgstr "Aktivera det på din adminpanel %smanuellt%s"
+
+#: lets-encrypt/functions.php:386
+msgid "Please complete %smanually%s"
+msgstr "Slutför %smanuellt%s"
+
+#: lets-encrypt/functions.php:383
+msgid "Please complete manually in your hosting dashboard."
+msgstr "Slutför manuellt i din adminpanel hos ditt webbhotell."
+
+#: lets-encrypt/functions.php:321
+msgid "You have the required PHP version to continue."
+msgstr "Du har den PHP-version som krävs för att fortsätta."
+
+#: lets-encrypt/functions.php:317
+msgid "The minimum requirements for the PHP version have not been met. Please upgrade to %s"
+msgstr "Minimikraven för PHP-versionen har inte uppfyllts. Uppgradera till %s"
+
+#: lets-encrypt/download.php:49
+msgid "File missing. Please retry the previous steps."
+msgstr "Fil saknas. Försök igen med föregående stegen."
+
+#: lets-encrypt/cron.php:84
+msgid "Once every 5 minutes"
+msgstr "En gång var 5:e minut"
+
+#: lets-encrypt/cron.php:80
+msgid "Once every day"
+msgstr "En gång varje dag"
+
+#: lets-encrypt/cron.php:76
+msgid "Once every week"
+msgstr "En gång varje vecka"
+
+#: lets-encrypt/class-letsencrypt-handler.php:1652
+#: lets-encrypt/integrations/cloudways/functions.php:22
+#: lets-encrypt/integrations/cpanel/functions.php:16
+#: lets-encrypt/integrations/cpanel/functions.php:33
+#: lets-encrypt/integrations/directadmin/functions.php:16
+#: lets-encrypt/integrations/plesk/functions.php:16
+msgid "The system is not ready for the installation yet. Please run the wizard again."
+msgstr "Systemet är inte redo för installation ännu. Kör guiden igen."
+
+#: lets-encrypt/class-letsencrypt-handler.php:1647
+msgid "Installation failed."
+msgstr "Installationen misslyckades."
+
+#: lets-encrypt/class-letsencrypt-handler.php:1535
+msgid "Error code %s"
+msgstr "Felkod %s"
+
+#: lets-encrypt/class-letsencrypt-handler.php:1518
+msgid "Please create a folder 'rsssl' in the uploads directory, with 644 permissions."
+msgstr "Skapa en mapp 'rsssl' i uppladdningskatalogen med behörighet 644."
+
+#: lets-encrypt/class-letsencrypt-handler.php:1517
+msgid "Could not create test folder and file."
+msgstr "Kunde inte skapa testmapp och fil."
+
+#: lets-encrypt/class-letsencrypt-handler.php:1488
+msgid "If this is not the case, don't add this alias to your certificate."
+msgstr "Om detta inte är fallet, lägg inte till detta alias i ditt certifikat."
+
+#: lets-encrypt/class-letsencrypt-handler.php:1488
+msgid "Could not verify alias domain."
+msgstr "Kunde inte verifiera alias-domän."
+
+#: lets-encrypt/class-letsencrypt-handler.php:1486
+msgid "Please check if the www version of your site also points to this website."
+msgstr "Kontrollera om www-versionen av din webbplats också pekar till denna webbplats."
+
+#: lets-encrypt/class-letsencrypt-handler.php:1484
+msgid "Please check if the non www version of your site also points to this website."
+msgstr "Kontrollera om den icke www-versionen av din webbplats också pekar till denna webbplats."
+
+#: lets-encrypt/class-letsencrypt-handler.php:1465
+msgid "Alias domain check is not relevant for a subdomain"
+msgstr "Kontroll av aliasdomän är inte relevant för subdomäner"
+
+#: lets-encrypt/class-letsencrypt-handler.php:1435
+msgid "No subdomain setup detected."
+msgstr "Ingen subdomänskonfiguration hittades."
+
+#: lets-encrypt/class-letsencrypt-handler.php:1232
+#: lets-encrypt/class-letsencrypt-handler.php:1495
+#: lets-encrypt/class-letsencrypt-handler.php:1546
+msgid "Successfully verified alias domain."
+msgstr "Aliasdomän har verifierats."
+
+#: lets-encrypt/class-letsencrypt-handler.php:1219
+#: lets-encrypt/class-letsencrypt-handler.php:1223
+msgid "Error code %s."
+msgstr "Felkod %s."
+
+#: lets-encrypt/class-letsencrypt-handler.php:1205
+msgid "Challenge directory not writable."
+msgstr "”Challenge”-katalogen är inte skrivbar."
+
+#: lets-encrypt/class-letsencrypt-handler.php:1195
+#: lets-encrypt/class-letsencrypt-handler.php:1472
+msgid "no response"
+msgstr "inget svar"
+
+#: lets-encrypt/class-letsencrypt-handler.php:1136
+msgid "The certs directory was successfully created."
+msgstr "Certifikatskatalogen skapades."
+
+#: lets-encrypt/class-letsencrypt-handler.php:1132
+msgid "The certs directory is not created yet."
+msgstr "Certifikatkatalogen är inte skapad än."
+
+#: lets-encrypt/class-letsencrypt-handler.php:1117
+msgid "The key directory was successfully created."
+msgstr "Nyckelkatalogen skapades."
+
+#: lets-encrypt/class-letsencrypt-handler.php:1109
+msgid "Trying to create directory in root of website."
+msgstr "Försöker att skapa en katalog i webbplatsens rotkatalog."
+
+#: lets-encrypt/class-letsencrypt-handler.php:1105
+msgid "The key directory is not created yet."
+msgstr "Nyckelkatalogen är inte skapad än."
+
+#: lets-encrypt/class-letsencrypt-handler.php:1066
+msgid "Set permissions to 644 to enable SSL generation."
+msgstr "Ställ in behörigheter till 644 för att aktivera SSL-generering."
+
+#: lets-encrypt/class-letsencrypt-handler.php:1066
+msgid "The following directories do not have the necessary writing permissions."
+msgstr "Följande kataloger har inte nödvändiga skrivbehörigheter."
+
+#: lets-encrypt/class-letsencrypt-handler.php:1050
+msgid "Please complete the following step(s) first: %s"
+msgstr "Slutför följande steg först: %s"
+
+#: lets-encrypt/class-letsencrypt-handler.php:785
+msgid "Order successfully retrieved."
+msgstr "Beställning mottagen."
+
+#: lets-encrypt/class-letsencrypt-handler.php:768
+msgid "Order successfully created."
+msgstr "Beställning skapad."
+
+#: lets-encrypt/class-letsencrypt-handler.php:724
+msgid "Bundle not available yet..."
+msgstr "Paket är inte tillgängligt än …"
+
+#: lets-encrypt/class-letsencrypt-handler.php:716
+msgid "Files not created yet..."
+msgstr "Filer har inte skapats ännu …"
+
+#: lets-encrypt/class-letsencrypt-handler.php:710
+msgid "Successfully generated certificate."
+msgstr "Certifikat genererades utan problem."
+
+#: lets-encrypt/class-letsencrypt-handler.php:672
+msgid "OCSP not supported, the certificate will be generated without OCSP."
+msgstr "OCSP stöds inte, certifikatet kommer att genereras utan OCSP."
+
+#: lets-encrypt/class-letsencrypt-handler.php:644
+msgid "Authorization not completed yet."
+msgstr "Auktorisering inte slutfört än."
+
+#: lets-encrypt/class-letsencrypt-handler.php:619
+msgid "Certificate already generated. It was renewed if required."
+msgstr "Certifikat har redan genererats. Det förnyades om det krävdes."
+
+#: lets-encrypt/class-letsencrypt-handler.php:588
+msgid "DNS records were not verified yet. Please complete the previous step."
+msgstr "DNS-poster har inte verifierats än. Slutför föregående steg."
+
+#: lets-encrypt/class-letsencrypt-handler.php:574
+msgid "Please double check your DNS txt record."
+msgstr "Dubbelkontrollera din ”DNS-txt”-post."
+
+#: lets-encrypt/class-letsencrypt-handler.php:531
+msgid "Could not verify TXT record for domain %s"
+msgstr "Kunde inte verifiera TXT-post för domän %s"
+
+#: lets-encrypt/class-letsencrypt-handler.php:522
+msgid "The DNS response for %s was %s, while it should be %s."
+msgstr "DNS-svaret för %s var %s, medan det borde vara %s."
+
+#: lets-encrypt/class-letsencrypt-handler.php:515
+msgid "Successfully verified DNS records"
+msgstr "DNS-poster verifierades utan problem"
+
+#: lets-encrypt/class-letsencrypt-handler.php:501
+#: lets-encrypt/integrations/cpanel/functions.php:45
+msgid "Token not generated. Please complete the previous step."
+msgstr "Token genererades inte. Slutför föregående steg."
+
+#: lets-encrypt/class-letsencrypt-handler.php:433
+msgid "Token not received yet."
+msgstr "Token har inte tagits emot än."
+
+#: lets-encrypt/class-letsencrypt-handler.php:418
+#: lets-encrypt/class-letsencrypt-handler.php:426
+msgid "Token successfully retrieved."
+msgstr "Token mottagen."
+
+#: lets-encrypt/class-letsencrypt-handler.php:381
+msgid "The email address was not set. Please set the email address"
+msgstr "E-postadressen har inte ställts in. Ställ in e-postadressen"
+
+#: lets-encrypt/class-letsencrypt-handler.php:372
+msgid "Please change your email address %shere%s and try again."
+msgstr "Ändra din e-postadress %shär%s och försök igen."
+
+#: lets-encrypt/class-letsencrypt-handler.php:371
+msgid "The used domain for your email address is not allowed."
+msgstr "Den använda domänen för din e-postadress är inte tillåten."
+
+#: lets-encrypt/class-letsencrypt-handler.php:363
+msgid "Successfully retrieved account"
+msgstr "Tog emot konto"
+
+#: lets-encrypt/class-letsencrypt-handler.php:343
+msgid "The PHP function CURL has successfully been detected."
+msgstr "PHP-funktionen CURL har upptäckts."
+
+#: lets-encrypt/class-letsencrypt-handler.php:339
+msgid "The PHP function CURL is not available on your server, which is required. Please contact your hosting provider."
+msgstr "PHP-funktionen CURL är inte tillgänglig på din server, vilket krävs. Kontakta ditt webbhotell."
+
+#: lets-encrypt/class-letsencrypt-handler.php:282
+msgid "SSL certificate should be generated and installed."
+msgstr "SSL-certifikat ska genereras och installeras."
+
+#: lets-encrypt/class-letsencrypt-handler.php:276
+msgid "You already have a valid SSL certificate."
+msgstr "Du har redan ett giltigt SSL-certifikat."
+
+#: lets-encrypt/class-letsencrypt-handler.php:272
+msgid "Continue to renew."
+msgstr "Fortsätt att förnya."
+
+#: lets-encrypt/class-letsencrypt-handler.php:272
+msgid "Your certificate will expire on %s."
+msgstr "Ditt certifikat kommer löpa ut den %s."
+
+#: lets-encrypt/class-letsencrypt-handler.php:266
+msgid "(unknown)"
+msgstr "(okänd)"
+
+#: lets-encrypt/class-letsencrypt-handler.php:202
+msgid "Your domain meets the requirements for Let's Encrypt."
+msgstr "Din domän uppfyller kraven för Let's Encrypt."
+
+#: lets-encrypt/class-letsencrypt-handler.php:188
+msgid "It is not possible to install Let's Encrypt on a localhost environment."
+msgstr "Det är inte möjligt att installera Let's Encrypt på en localhost-miljö."
+
+#: lets-encrypt/class-letsencrypt-handler.php:198
+msgid "It is not possible to install Let's Encrypt on a subfolder configuration."
+msgstr "Det är inte möjligt att installera Let's Encrypt på en undermappskonfiguration."
+
+#: class-admin.php:3173
+msgid "Re-check"
+msgstr "Kontrollera igen"
+
+#: class-admin.php:3171
+msgid "Depending on your hosting provider, %smanual installation%s may be required."
+msgstr "Beroende på ditt webbhotell kan en %smanuell installation%s behövas."
+
+#: class-admin.php:3170
+msgid "SSL certificate will expire on %s."
+msgstr "SSL-certifikat kommer löpa ut den %s."
+
+#: class-admin.php:3169
+msgid "Your SSL certificate will expire soon."
+msgstr "Ditt SSL-certifikat löper snart ut."
+
+#: class-admin.php:3156
+msgid "No SSL detected. Use the retry button to check again."
+msgstr "Inget SSL upptäckt. Använd knappen ”försök igen” för att kontrollera igen."
+
+#: class-admin.php:3033
+msgid "(Unknown)"
+msgstr "(Okänd)"
+
+#: class-admin.php:844 class-admin.php:3157 class-admin.php:3172
+msgid "Install SSL certificate"
+msgstr "Installera SSL-certifikat"
+
+#: class-admin.php:3158 lets-encrypt/wizard/class-wizard.php:904
+msgid "Retry"
+msgstr "Försök igen"
+
+#: class-admin.php:560 lets-encrypt/wizard/templates/activate.php:58
+msgid "An SSL certificate has been detected"
+msgstr "Ett SSL-certifikat har upptäckts"
+
+#: grid/templates/tips-tricks.php:39
+msgid "Adding a Permission Policy"
+msgstr "Att lägga till en behörighetspolicy"
+
+#: grid/templates/tips-tricks.php:31
+msgid "Adding a Content Security Policy"
+msgstr "Att lägga till en policy för säkrat innehåll"
+
+#: class-admin.php:3348
+msgid "Or set your wp-config.php to writable and reload this page."
+msgstr "Eller ställ in din wp-config.php till skrivbar och ladda om denna sida."
+
+#: class-admin.php:3340
+msgid "Add the following lines of code to your wp-config.php."
+msgstr "Lägg till följande kodrader i din wp-config.php."
+
+#: class-admin.php:3340
+msgid "To set the httponly secure cookie settings, your wp-config.php has to be edited, but the file is not writable."
+msgstr "För att kunna ställa in inställningar för cookie ”HttpOnly Secure” behöver wp-config.php redigeras, men filen är inte skrivbar."
+
+#: class-admin.php:3333
+msgid "HttpOnly Secure cookies not set."
+msgstr "”HttpOnly Secure”-cookies inte angivna."
+
+#: class-admin.php:3382
+msgid "Due to a recent update by WP Engine, we have changed your settings automatically to adapt."
+msgstr "På grund av en ändring nyligen i WP Engine har vi automatiskt justerat våra inställningar för att det ska fungera."
+
+#: class-admin.php:3062
+msgid "The Really Simple SSL plugin folder in the /wp-content/plugins/ directory has been renamed to %s. This might cause issues when deactivating, or with premium add-ons. To fix this you can rename the Really Simple SSL folder back to the default %s."
+msgstr "Katalogen för tillägget Really Simple SSL i /wp-content/plugins/ har namnändrats till %s. Detta kan orsaka problem i samband med inaktivering eller med premiumtillägg. Du kan i så fall lösa detta genom att ändra tillbaka katalogens namn till standardvärdet %s."
+
+#: class-site-health.php:75
+msgid "Not all recommended security headers are installed"
+msgstr "Inte alla rekommenderade säkerhetsheaders är installerade"
+
+#: grid/templates/other-plugins.php:40
+msgid "Beautiful recipes optimized for Google "
+msgstr "Vackra recept optimerade för Google "
+
+#: class-site-health.php:63
+msgid "The recommended security headers are detected on your site."
+msgstr "De säkerhetsheaders som rekommenderas finns på din webbplats."
+
+#: class-site-health.php:55
+msgid "Recommended security headers installed"
+msgstr "Rekommenderade säkerhetsheaders installerade"
+
+#: class-site-health.php:38
+msgid "Security Headers Test"
+msgstr "Test av säkerhetsheaders"
+
+#: class-site-health.php:32
+msgid "SSL Status Test"
+msgstr "Test av SSL-status"
+
+#: class-admin.php:3155
+msgid "No SSL detected"
+msgstr "Inget SSL upptäckt"
+
+#: class-site-health.php:80
+msgid "Learn more about security headers"
+msgstr "Läs mer om säkerhetsheaders"
+
+#: class-site-health.php:146
+msgid "Enable 301 redirect"
+msgstr "Aktivera 301-omdirigering"
+
+#: class-site-health.php:141
+msgid "To ensure all traffic passes through SSL, please enable a 301 redirect."
+msgstr "För att säkerställa att all trafik går via SSL, aktivera en 301-omdirigering."
+
+#: class-site-health.php:138
+msgid "No 301 redirect to SSL enabled."
+msgstr "Ingen 301-omdirigering till SSL aktiverad."
+
+#: class-site-health.php:132
+msgid "Really Simple SSL is installed, but no valid SSL certificate is detected."
+msgstr "Really Simple SSL är installerat, men inget giltigt SSL-certifikat upptäcktes."
+
+#: class-site-health.php:119
+msgid "Really Simple SSL detected an SSL certificate, but has not been configured to enforce SSL."
+msgstr "Really Simple SSL upptäckte ett SSL-certifikat, men har inte konfigurerats för att tvinga SSL."
+
+#: class-site-health.php:116
+msgid "SSL is not enabled."
+msgstr "SSL är inte aktiverat."
+
+#: class-admin.php:4672
+msgid "Deactivate, revert to http"
+msgstr "Inaktivera, återgå till http"
+
+#: class-admin.php:4671
+msgid "Deactivate, keep https"
+msgstr "Inaktivera, behåll https"
+
+#: class-admin.php:4658
+msgid "The WordPress 301 redirect will stop working"
+msgstr "WordPress 301-omdirigeringen kommer att sluta fungera"
+
+#: class-admin.php:4653
+msgid "Deactivate, and revert to http. This will remove all changes by the plugin."
+msgstr "Inaktivera och återgå till http. Detta tar bort alla ändringar av tillägget."
+
+#: class-admin.php:4652
+msgid "Deactivate, but stay on SSL."
+msgstr "Inaktivera, men behåll SSL."
+
+#: class-admin.php:4650
+msgid "To deactivate the plugin correctly, please select if you want to:"
+msgstr "För att inaktivera tillägget korrekt, välj om du vill:"
+
+#: class-admin.php:4343
+msgid "If the setting 'stop editing the .htaccess file' is enabled, you can't change this setting."
+msgstr "Om inställningen ”Sluta redigera .htaccess-filen” är aktiverad kan du inte ändra denna inställning."
+
+#: class-admin.php:4193 class-multisite.php:341
+msgid "Enable this option to permanently dismiss all +1 notices in the 'Your progress' tab"
+msgstr "Aktivera det här alternativet för att permanent avfärda alla +1-aviseringar i fliken ”Din status”"
+
+#: class-admin.php:4190
+msgid "Fire mixed content fixer with different method"
+msgstr "Kör korrigeringsrutinen för blandat innehåll med en annan metod"
+
+#: class-admin.php:4172
+msgid "Enable WordPress 301 redirect"
+msgstr "Aktivera WordPress 301-omdirigering"
+
+#: class-admin.php:4171
+msgid "Redirects all requests over HTTP to HTTPS using a PHP 301 redirect. Enable if the .htaccess redirect cannot be used, for example on NGINX servers."
+msgstr "Omdirigerar alla förfrågningar via HTTP till HTTPS med hjälp av en PHP 301-omdirigering. Aktivera detta om omdirigering med hjälp av .htaccess inte kan användas, exempelvis på NGINX-servrar."
+
+#: class-admin.php:4139
+msgid "Copied!"
+msgstr "Kopierad!"
+
+#: class-admin.php:4133
+msgid " You still have %s tasks open."
+msgstr "Du har fortfarande %s uppgifter öppna."
+
+#: class-admin.php:4038
+msgid "Premium"
+msgstr "Premium"
+
+#: class-admin.php:4036
+msgid "Open"
+msgstr "Öppen"
+
+#: class-admin.php:4034
+msgid "Warning"
+msgstr "Varning"
+
+#: class-admin.php:4032
+msgid "Completed"
+msgstr "Klart"
+
+#: class-admin.php:3967
+msgid "Instructions manual"
+msgstr "Instruktionsmanual"
+
+#: class-admin.php:3908
+msgid "Upgrade to pro"
+msgstr "Uppgradera till pro"
+
+#: class-admin.php:3910
+msgid "Installed"
+msgstr "Installerat"
+
+#: class-admin.php:3905
+msgid "Install"
+msgstr "Installera"
+
+#: class-admin.php:3793
+msgid "Tips & Tricks"
+msgstr "Tips och tricks"
+
+#: class-admin.php:3543
+msgid "%sEnable%s or %sdismiss%s"
+msgstr "%sAktivera%s eller %savfärda%s"
+
+#: class-admin.php:3537
+msgid "%sMore info%s or %sdismiss%s"
+msgstr "%sMer info%s eller %savfärda%s"
+
+#: class-admin.php:3296
+msgid "Your site uses Divi. This can require some additional steps before getting the secure lock."
+msgstr "Din webbplats använder Divi. Det kan behövas några ytterligare steg innan du får det säkra hänglåset."
+
+#: class-admin.php:3282
+msgid "Your site uses Elementor. This can require some additional steps before getting the secure lock."
+msgstr "Din webbplats använder Elementor. Det kan behövas några ytterligare steg innan du får det säkra hänglåset."
+
+#: class-admin.php:3267
+msgid "The .htaccess redirect rules selected by this plugin failed in the test. Set manually or dismiss to leave on WordPress redirect."
+msgstr "Omdirigeringsregeln i .htaccess som tillägget valde klarade inte testet. Lägg in ändringen manuellt eller avfärda för att låta WordPress sköta omdirigeringen i stället."
+
+#: class-admin.php:3261
+msgid "The %s file is not writable. You can either use the WordPress redirect, add the rules manually, or set the file to %swritable%s."
+msgstr "Filen %s är inte skrivbar. Du kan antingen använda omdirigering via WordPress, lägga till reglerna manuellt eller göra filen %sskrivbar%s."
+
+#: class-admin.php:3249
+msgid "WordPress 301 redirect enabled. We recommend to enable a 301 .htaccess redirect."
+msgstr "WordPress 301-omdirigering aktiverad. Vi rekommenderar att du aktiverar 301-omdirigering med .htaccess."
+
+#: class-admin.php:3209
+msgid "Mixed content fixer not enabled. Enable the option to fix mixed content on your site."
+msgstr "Korrigeringsrutinen för blandat innehåll är inte aktiverad. Aktivera alternativet för att korrigera blandat innehåll på din webbplats."
+
+#: class-admin.php:3198
+msgid "The mixed content fixer is active, but was not detected on the frontpage."
+msgstr "Korrigeringsrutinen för blandat innehåll är aktiv, men upptäcktes inte på startsidan."
+
+#: class-admin.php:3191
+msgid "Really Simple SSL has received no response from the webpage."
+msgstr "Really Simple SSL har inte tagit emot något svar från webbsidan."
+
+#: class-admin.php:3151
+msgid "Cannot activate SSL due to system configuration."
+msgstr "Kan inte aktivera SSL på grund av systemkonfiguration."
+
+#: class-admin.php:3140
+msgid "SSL is not enabled yet."
+msgstr "SSL är inte aktiverat än."
+
+#: class-admin.php:3123
+msgid "Really Simple SSL 4.0. Learn more about our newest major release."
+msgstr "Really Simple SSL 4.0. Läs mer om vår senaste huvudversion."
+
+#: class-admin.php:3122
+msgid "https://really-simple-ssl.com/really-simple-ssl-4-a-new-dashboard"
+msgstr "https://really-simple-ssl.com/really-simple-ssl-4-a-new-dashboard"
+
+#: class-admin.php:3078
+msgid "SSL is now activated. Check if your website is secure by following this article."
+msgstr "SSL är nu aktiverat. Kontrollera om din webbplats är säker genom att följa den här artikeln."
+
+#: class-admin.php:3018
+msgid "No recommended redirect rules detected."
+msgstr "Inga rekommenderade omdirigeringsregler upptäcktes."
+
+#: class-admin.php:2939
+msgid "General"
+msgstr "Allmänt"
+
+#: class-admin.php:553 lets-encrypt/wizard/templates/activate.php:45
+msgid "Before you migrate, please check for: "
+msgstr "Innan du flyttar bör du kontrollera följande: "
+
+#: rlrsssl-really-simple-ssl.php:192
+msgid "Please upgrade to the latest version to be able use the full functionality of the plugin."
+msgstr "Uppgradera till den senaste versionen för att kunna använda tilläggets alla funktioner."
+
+#: rlrsssl-really-simple-ssl.php:191
+msgid "You have a premium add-on with a version that is not compatible with the >4.0 release of Really Simple SSL."
+msgstr "Du har en premiumutökning med en version som inte är kompatibel med Really Simple SSL version 4.0 och senare."
+
+#: rlrsssl-really-simple-ssl.php:190
+msgid "Plugin dependency error"
+msgstr "Tilläggsberoendefel"
+
+#: rlrsssl-really-simple-ssl.php:41
+msgid "Really Simple SSL cannot be activated. The plugin requires WordPress 4.8 or higher"
+msgstr "Really Simple SSL kan inte aktiveras. Tillägget kräver WordPress 4.8 eller högre"
+
+#: rlrsssl-really-simple-ssl.php:35
+msgid "Really Simple SSL cannot be activated. The plugin requires PHP 5.6 or higher"
+msgstr "Really Simple SSL kan inte aktiveras. Tillägget kräver PHP 5.6 eller högre"
+
+#: class-multisite.php:1044
+msgid "Really Simple SSL has converted all your websites to non SSL."
+msgstr "Really Simple SSL har konverterat alla dina webbplatser till icke-SSL."
+
+#: class-multisite.php:1041
+msgid "Really Simple SSL has converted all your websites to SSL."
+msgstr "Really Simple SSL har konverterat alla dina webbplatser till SSL."
+
+#: class-multisite.php:1039
+msgid "Conversion of websites completed."
+msgstr "Konverteringen av webbplatser är klar."
+
+#: class-multisite.php:1034
+msgid "Site conversion in progress. Please refresh this page to check if the process has finished. It will proceed in the background."
+msgstr "Webbplatskonvertering pågår. Uppdatera den här sidan för att kontrollera om processen är klar. Den fortsätter i bakgrunden."
+
+#: class-multisite.php:570
+msgid "Setup"
+msgstr "Konfigurera"
+
+#: class-admin.php:3801 class-multisite.php:425
+msgid "Our plugins"
+msgstr "Våra tillägg"
+
+#: class-admin.php:3808 class-multisite.php:417
+msgid "Support forum"
+msgstr "Supportforum"
+
+#: class-admin.php:3778 class-multisite.php:401
+msgid "Your progress"
+msgstr "Din status"
+
+#: class-multisite.php:359
+msgid "Choose option"
+msgstr "Välj alternativ"
+
+#: class-admin.php:2963 class-admin.php:4724 class-multisite.php:229
+#: class-multisite.php:474 lets-encrypt/wizard/class-wizard.php:405
+msgid "Support"
+msgstr "Support"
+
+#: class-multisite.php:126
+msgid "SSL is enabled per site."
+msgstr "SSL är aktiverat per webbplats."
+
+#: class-multisite.php:122
+msgid "SSL is enabled networkwide."
+msgstr "SSL är aktiverat i hela nätverket."
+
+#: class-multisite.php:93
+msgid "SSL is activated network wide."
+msgstr "SSL är aktiverat i hela nätverket."
+
+#: class-multisite.php:91
+msgid "No choice has been made regarding networkwide or per site activation."
+msgstr "Inget val har gjorts beträffande aktivering för hela nätverket eller per webbplats."
+
+#: grid/templates/progress-footer.php:39
+msgid "301 Redirect"
+msgstr "301-omdirigering"
+
+#: class-admin.php:838 class-site-health.php:125
+#: grid/templates/progress-footer.php:25
+#: lets-encrypt/wizard/config/steps.php:156
+msgid "Activate SSL"
+msgstr "Aktivera SSL"
+
+#: grid/templates/progress-footer.php:19
+msgid "Go PRO!"
+msgstr "Skaffa PRO!"
+
+#: grid/templates/progress-footer.php:9
+msgid "SSL Not activated"
+msgstr "SSL inte aktiverat"
+
+#: class-admin.php:4129 grid/templates/progress.php:43
+msgid "SSL is not yet enabled on this site."
+msgstr "SSL är inte aktiverat på denna webbplats."
+
+#: class-admin.php:4125 grid/templates/progress.php:37
+msgid "Basic SSL configuration finished! Improve your score with %sReally Simple SSL Pro%s."
+msgstr "Grundläggande SSL-konfiguration slutförd! Förbättra din poäng med %sReally Simple SSL Pro%s."
+
+#: grid/templates/progress.php:32
+msgid "SSL configuration finished!"
+msgstr "SSL-konfiguration slutförd!"
+
+#: class-admin.php:4132 grid/templates/progress.php:29
+msgid "You still have %s task open."
+msgid_plural "You still have %s tasks open."
+msgstr[0] "Du har fortfarande %s uppgift öppen."
+msgstr[1] "Du har fortfarande %s uppgifter öppna."
+
+#: class-admin.php:4127 grid/templates/progress.php:29
+msgid "SSL is activated on your site."
+msgstr "SSL är aktiverat på din webbplats."
+
+#: grid/templates/support.php:42
+msgid "Elementor"
+msgstr "Elementor"
+
+#: grid/templates/support.php:35
+msgid "Mixed Content"
+msgstr "Blandat innehåll"
+
+#: grid/templates/support.php:21
+msgid "Multisite"
+msgstr "Multisite"
+
+#: grid/templates/support.php:14
+msgid "Redirect loops"
+msgstr "Omdirigeringsloop"
+
+#: grid/templates/support.php:7
+msgid "General Issues"
+msgstr "Allmänna problem"
+
+#: grid/templates/header.php:5
+msgid "Save settings"
+msgstr "Spara inställningar"
+
+#: grid/templates/support-footer.php:7
+msgid "SSL type:"
+msgstr "SSL-typ:"
+
+#: grid/templates/support-footer.php:6
+msgid "Server type:"
+msgstr "Server-typ:"
+
+#: grid/templates/support-footer.php:3
+msgid "Download system status"
+msgstr "Ladda ner systemstatus"
+
+#: grid/templates/tips-tricks.php:64
+msgid "Any questions? See the %sdocumentation%s or the %sWordPress Forum%s."
+msgstr "Några frågor? Läs %sdokumentationen%s eller gå till %sWordPress forum%s."
+
+#: grid/templates/tips-tricks.php:47
+msgid "Information about landing page redirects"
+msgstr "Information om omdirigeringar av landningssidan"
+
+#: grid/templates/tips-tricks.php:23
+msgid "Improve security: Add security headers"
+msgstr "Förbättra säkerheten: Lägg till säkerhetsheaders"
+
+#: grid/templates/tips-tricks.php:15
+msgid "Improve security: Enable HTTP Strict Transport Security (HSTS)"
+msgstr "Förbättra säkerheten: Aktivera HTTP Strict Transport Security (HSTS)"
+
+#: grid/templates/tips-tricks.php:10 grid/templates/tips-tricks.php:18
+#: grid/templates/tips-tricks.php:26 grid/templates/tips-tricks.php:34
+#: grid/templates/tips-tricks.php:42 grid/templates/tips-tricks.php:50
+#: grid/templates/tips-tricks.php:58
+msgid "Read more"
+msgstr "Läs mer"
+
+#: grid/templates/progress-header.php:15
+msgid "Remaining tasks"
+msgstr "Återstående uppgifter"
+
+#: grid/templates/progress-header.php:7
+msgid "All tasks"
+msgstr "Alla uppgifter"
+
+#. Author of the plugin
+msgid "Really Simple Plugins"
+msgstr "Really Simple Plugins"
+
+#: grid/templates/support.php:28
+msgid "Really Simple SSL Pro"
+msgstr "Really Simple SSL Pro"
+
+#: class-admin.php:2687
+msgid "Hi, Really Simple SSL has kept your site secure for some time now, awesome! If you have a moment, please consider leaving a review on WordPress.org to spread the word. We greatly appreciate it! If you have any questions or feedback, leave us a %smessage%s."
+msgstr "Hej, Really Simple SSL har hållit din webbplats säker ett tag nu, fantastiskt! Om du har möjlighet skulle vi vilja be dig att lämna en recension på WordPress.org för att sprida ordet. Vi skulle verkligen uppskatta det! Om du har några frågor eller feedback, skicka ett %smeddelande%s till oss."
+
+#: class-admin.php:570 lets-encrypt/wizard/templates/activate.php:30
+#: lets-encrypt/wizard/templates/activate.php:70
+msgid "Check out Really Simple SSL Pro"
+msgstr "Kolla in Really Simple SSL Pro"
+
+#: class-admin.php:841 lets-encrypt/wizard/class-wizard.php:909
+msgid "Get ready with PRO!"
+msgstr "Gör dig redo med PRO!"
+
+#: class-admin.php:556
+msgid "Images, stylesheets or scripts from a domain without an SSL certificate: remove them or move to your own server"
+msgstr "Bilder, stilmallar eller skript från en domän utan ett SSL-certifikat: ta bort dem eller flytta till din egen server"
+
+#: class-admin.php:2697
+msgid "Don't show again"
+msgstr "Visa inte igen"
+
+#: class-admin.php:3215
+msgid "The mixed content fixer could not be detected due to a cURL error: %s. cURL errors are often caused by an outdated version of PHP or cURL and don't affect the front-end of your site. Contact your hosting provider for a fix."
+msgstr "Korrigeringsrutinen för blandat innehåll kan inte upptäckas på grund av ett cURL-fel: %s. cURL-fel orsakas ofta av en föråldrad version av PHP eller cURL och påverkar inte front-end på din webbplats. Kontakta ditt webbhotell för en åtgärd."
+
+#: class-admin.php:3203
+msgid "Error occurred when retrieving the webpage."
+msgstr "Fel uppstod vid hämtning av webbsidan."
+
+#: class-site-health.php:153
+msgid "The 301 .htaccess redirect is the fastest and most reliable redirect option."
+msgstr "301-omdirigering via .htaccess är det snabbaste och mest pålitliga omdirigeringsalternativet."
+
+#: class-site-health.php:150
+msgid "301 .htaccess redirect is not enabled."
+msgstr "301-omdirigering via .htaccess är inte aktiverad."
+
+#: class-site-health.php:107
+msgid "You have set a 301 redirect to SSL. This is important for SEO purposes"
+msgstr "Du har konfigurerat en 301-omdirigering till SSL. Detta är viktigt för sökmotoroptimering"
+
+#: class-site-health.php:99
+msgid "301 SSL redirect enabled"
+msgstr "301-omdirigering till SSL aktiverad"
+
+#: class-admin.php:4194 class-multisite.php:342
+msgid "Dismiss all Really Simple SSL notices"
+msgstr "Avfärda alla notiser från Really Simple SSL"
+
+#: class-admin.php:3313
+msgid "HTTP Strict Transport Security is not enabled %s(Read more)%s."
+msgstr "HTTP Strict Transport Security är inte aktiverat %s(Läs mer)%s."
+
+#: class-admin.php:3244
+msgid "301 redirect to https set: .htaccess redirect."
+msgstr "301-omdirigering till https är inställt på: Omdirigering via .htaccess."
+
+#: class-multisite.php:1035
+msgid "If the conversion does not proceed after a few minutes, click %shere%s to force the conversion process."
+msgstr "Om konverteringsprocessen inte fortsätter inom några minuter kan du %sklicka här för att starta konverteringen manuellt%s."
+
+#: class-admin.php:3048
+msgid "The 'force-deactivate.php' file has to be renamed to .txt. Otherwise your ssl can be deactivated by anyone on the internet."
+msgstr "Filen ”force-deactivate.php” måste döpas om till .txt. I annat fall kan vem som helst på internet inaktivera SSL på din webbplats."
+
+#: multisite-cron.php:11
+msgid "Once every minute"
+msgstr "En gång i minuten"
+
+#: class-multisite.php:1033
+msgid "Conversion of websites %s percent complete."
+msgstr "Konvertering av webbplatser %s procent klart."
+
+#: class-admin.php:2696
+msgid "Maybe later"
+msgstr "Kanske senare"
+
+#: class-admin.php:2695
+msgid "Leave a review"
+msgstr "Skriva en recension"
+
+#: class-admin.php:2689
+msgid "Hi, Really Simple SSL has kept your site secure for a month now, awesome! If you have a moment, please consider leaving a review on WordPress.org to spread the word. We greatly appreciate it! If you have any questions or feedback, leave us a %smessage%s."
+msgstr "Hej, Really Simple SSL har hållit din webbplats säker i en månad nu, fantastiskt! Om du har möjlighet skulle vi vilja be dig att lämna en recension på WordPress.org för att sprida ordet. Vi skulle verkligen uppskatta det! Om du har några frågor eller förslag, skicka ett %smeddelande%s till oss."
+
+#: class-multisite.php:159
+msgid "Activate SSL per site or install a wildcard certificate to fix this."
+msgstr "Aktivera SSL per webbplats eller installera ett ”wildcard”-certifikat för att åtgärda detta."
+
+#: class-multisite.php:158
+msgid "This leads to issues when activating SSL networkwide since subdomains will be forced over SSL as well while they don't have a valid certificate."
+msgstr "Detta leder till problem när SSL aktiveras för nätverkswebbplatser, eftersom underdomäner kommer att tvingas till SSL, även om de inte har ett giltigt certifikat."
+
+#: class-multisite.php:157
+msgid "You run a Multisite installation with subdomains, but your site doesn't have a wildcard certificate."
+msgstr "Du kör en multisite-installation med underdomäner, men din webbplats har inte ett ”wildcard”-certifikat."
+
+#: class-admin.php:4670
+msgid "Cancel"
+msgstr "Avbryt"
+
+#: class-admin.php:4660
+msgid "The .htaccess redirect will remain active"
+msgstr "htaccess-omdirigeringen kommer förbli aktiv"
+
+#: class-admin.php:4659
+msgid "Your site address will remain https://"
+msgstr "Din webbplatsadress kommer att förbli https://"
+
+#: class-admin.php:4657
+msgid "The mixed content fixer will stop working"
+msgstr "Korrigeringsrutinen för blandat innehåll kommer sluta fungera"
+
+#: class-admin.php:4655
+msgid "Deactivating the plugin while keeping SSL will do the following:"
+msgstr "Om du inaktiverar tillägget medan du behåller SSL kommer göra följande:"
+
+#: class-admin.php:4637
+msgid "Are you sure?"
+msgstr "Är du säker?"
+
+#: class-admin.php:4086
+msgid "More info"
+msgstr "Mer info"
+
+#: class-admin.php:117
+msgid "Really Simple SSL and Really Simple SSL add-ons do not process any personal identifiable information, so the GDPR does not apply to these plugins or usage of these plugins on your website. You can find our privacy policy <a href=\"%s\" target=\"_blank\">here</a>."
+msgstr "Really Simple SSL och Really Simple SSL-utökningar behandlar inte någon personlig identifierbar information, så GDPR gäller inte dessa tillägg eller användningen av dessa tillägg på din webbplats. Du hittar vår integritetspolicy <a href=\"%s\" target=\"_blank\">här</a>."
+
+#: lets-encrypt/wizard/templates/activate.php:55
+msgid "We strongly recommend to create a %sbackup%s of your site before activating SSL"
+msgstr "Vi rekommenderar starkt att du skapar en %ssäkerhetskopia%s av din webbplats innan du aktiverar SSL"
+
+#. Author URI of the plugin
+msgid "https://really-simple-plugins.com"
+msgstr "https://really-simple-plugins.com"
+
+#: class-admin.php:3108
+msgid "Don't forget to change your settings in Google Analytics and Search Console."
+msgstr "Glöm inte att ändra dina inställningar i Google Analytics och Search Console."
+
+#: class-admin.php:4189
+msgid "If this option is set to true, the mixed content fixer will fire on the init hook instead of the template_redirect hook. Only use this option when you experience problems with the mixed content fixer.\""
+msgstr "Om detta alternativet har värdet true kommer rutinen för korrigering av blandat innehåll att kopplas mot åtgärds-hooken init i stället för template_redirect. Använd detta alternativ endast när du har problem med rutinen för korrigering av blandat innehåll."
+
+#: class-admin.php:569 lets-encrypt/wizard/templates/activate.php:26
+#: lets-encrypt/wizard/templates/activate.php:66
+msgid "You can also let the automatic scan of the pro version handle this for you, and get premium support, increased security with HSTS and more!"
+msgstr "Du kan även låta den automatiska genomsökningen i pro-versionen sköta detta åt dig, samtidigt som du får premium-support, högre säkerhet med hjälp av HSTS m.m!"
+
+#: class-multisite.php:95
+msgid "SSL is activated per site."
+msgstr "SSL aktiveras per webbplats."
+
+#: class-multisite.php:456
+msgid "Options saved."
+msgstr "Alternativ sparade."
+
+#: class-multisite.php:338
+msgid "Select to enable SSL networkwide or per site."
+msgstr "Välj om SSL ska aktiveras för hela nätverket eller för en webbplats i taget."
+
+#: class-multisite.php:362
+msgid "per site"
+msgstr "för varje webbplats"
+
+#: class-multisite.php:361
+msgid "networkwide"
+msgstr "för hela nätverket"
+
+#: class-multisite.php:339
+msgid "Enable SSL"
+msgstr "Aktivera SSL"
+
+#: class-admin.php:4310 class-admin.php:4340 class-admin.php:4417
+#: class-admin.php:4693
+msgid "This option is enabled on the network menu."
+msgstr "Detta alternativ är aktiverat på nätverksmenyn."
+
+#: class-admin.php:557 lets-encrypt/wizard/templates/activate.php:56
+msgid "You may need to login in again."
+msgstr "Du kan behöva logga in igen."
+
+#: class-admin.php:4336
+msgid "Before you enable the htaccess redirect, make sure you know how to %sregain access%s to your site in case of a redirect loop."
+msgstr "Innan du aktiverar omdirigering via htaccess måste du veta hur du gör för att %såterskapa kontakten%s med din webbplats om en omdirigerings-slinga skulle uppstå."
+
+#: class-admin.php:4176
+msgid "A .htaccess redirect is faster and works better with caching. Really Simple SSL detects the redirect code that is most likely to work (99% of websites), but this is not 100%. Make sure you know how to regain access to your site if anything goes wrong!"
+msgstr "Omdirigering via .htaccess är snabbare. Really Simple SSL kan ta fram omdirigeringskod som troligen kommer att fungera (för 99 % av alla webbplatser), men det fungerar inte alltid. Se till att du vet hur du återskapar kontakten med webbplatsen igen om något skulle gå fel!"
+
+#: class-admin.php:4177 class-site-health.php:158
+msgid "Enable 301 .htaccess redirect"
+msgstr "Aktivera omdirigering av typen 301 i .htaccess"
+
+#: class-admin.php:3232
+msgid "No 301 redirect is set. Enable the WordPress 301 redirect in the settings to get a 301 permanent redirect."
+msgstr "Ingen omdirigering av typen 301 har skapats. Aktivera omdirigering i WordPress av typen 301 i inställningarna för att skapa en permanent omdirigering av typen 301."
+
+#: class-admin.php:3255
+msgid "Enable a .htaccess redirect or WordPress redirect in the settings to create a 301 redirect."
+msgstr "Aktivera omdirigering i .htaccess eller i WordPress för att skapa en omdirigering av typen 301."
+
+#: class-admin.php:4166
+msgid "In most cases you need to leave this enabled, to prevent mixed content issues on your site."
+msgstr "För de flesta fall behöver du låta detta alternativ vara aktiverat för att förhindra problem med blandat innehåll på din webbplats."
+
+#: class-admin.php:4183
+msgid "If you want to customize the Really Simple SSL .htaccess, you need to prevent Really Simple SSL from rewriting it. Enabling this option will do that."
+msgstr "Om du vill anpassa koden från Really Simple SSL i .htaccess måste du förhindra att Really Simple SSL skriver om den. Det gör du genom att aktivera detta alternativ."
+
+#: class-admin.php:3309
+msgid "HTTP Strict Transport Security was enabled."
+msgstr "HTTP Strict Transport Security har aktiverats."
+
+#: class-admin.php:3228
+msgid "301 redirect to https set."
+msgstr "301-omdirigering till https aktiverat."
+
+#: class-multisite.php:576 class-multisite.php:604
+msgid "You can also let the automatic scan of the pro version handle this for you, and get premium support and increased security with HSTS included."
+msgstr "Du kan även låta den automatiska genomsökningen i pro-versionen hantera detta åt dig, samtidigt som du får premiumsupport och högre säkerhet med HSTS inkluderat."
+
+#: class-admin.php:4726 class-multisite.php:231
+msgid "Premium Support"
+msgstr "Premiumsupport"
+
+#: class-multisite.php:578 class-multisite.php:606
+msgid "Check out Really Simple SSL Premium"
+msgstr "Kolla in Really Simple SSL Premium"
+
+#: lets-encrypt/wizard/class-wizard.php:900
+msgid "Go ahead, activate SSL!"
+msgstr "Fortsätt, aktivera SSL!"
+
+#: lets-encrypt/functions.php:379 lets-encrypt/functions.php:380
+msgid "Instructions"
+msgstr "Instruktioner"
+
+#: class-multisite.php:130
+msgid "SSL is not enabled yet"
+msgstr "SSL är inte aktiverat än"
+
+#: class-admin.php:3136
+msgid "SSL is enabled on your site."
+msgstr "SSL är aktiverat på din webbplats."
+
+#: grid/templates/progress-footer.php:6
+msgid "SSL Activated"
+msgstr "SSL aktiverad"
+
+#: class-admin.php:2566
+msgid "Because your server does not pass a variable with which WordPress can detect SSL, WordPress may create redirect loops on SSL."
+msgstr "Eftersom din server inte skickar med någon variabel som låter WordPress se om SSL används finns det en risk att en omdirigeringsloop till SSL uppstår."
+
+#: class-admin.php:2560
+msgid "Or set your wp-config.php to %swritable%s and reload this page."
+msgstr "Eller gör filen wp-config.php %sskrivbar%s och ladda om denna sida."
+
+#: class-admin.php:2544
+msgid "Because your site is behind a loadbalancer and is_ssl() returns false, you should add the following line of code to your wp-config.php."
+msgstr "Eftersom din webbplats befinner sig bakom en lastfördelare och funktionen is_ssl() ger svaret false behöver du lägga till följande kodrad i filen wp-config.php."
+
+#: class-admin.php:2543
+msgid "Your wp-config.php has to be edited, but is not writable."
+msgstr "Filen wp-config.php behöver redigeras men är inte skrivbar."
+
+#: class-admin.php:2540 class-admin.php:2567
+msgid "Set your wp-config.php to %swritable%s and reload this page."
+msgstr "Gör din wp-config.php %sskrivbar%s och ladda sedan om denna sida."
+
+#: class-admin.php:2538
+msgid "A definition of a siteurl or homeurl was detected in your wp-config.php, but the file is not writable."
+msgstr "En definition av siteurl eller homeurl upptäcktes i filen wp-config.php, men filen är inte skrivbar."
+
+#: class-admin.php:2573
+msgid "System detection encountered issues"
+msgstr "Systemdetekteringen hade problem"
+
+#: class-multisite.php:574 lets-encrypt/wizard/templates/activate.php:20
+#: lets-encrypt/wizard/templates/activate.php:49
+msgid "Images, stylesheets or scripts from a domain without an SSL certificate: remove them or move to your own server."
+msgstr "Bilder, formatmallar eller skript från en domän utan ett SSL-certifikat: ta bort dem eller flytta till din egen server."
+
+#: class-admin.php:555 class-multisite.php:573
+#: lets-encrypt/wizard/templates/activate.php:19
+#: lets-encrypt/wizard/templates/activate.php:48
+msgid "Http references in your .css and .js files: change any http:// into https://"
+msgstr "HTTP-referenser i dina .css- och .js-filer: ändra alla http:// till https://"
+
+#: class-multisite.php:571
+msgid "Some things can't be done automatically. Before you migrate, please check for: "
+msgstr "Vissa saker går inte att utföra automatiskt. Innan du flyttar bör du kontrollera följande: "
+
+#: class-admin.php:545 lets-encrypt/wizard/templates/last-step.php:13
+msgid "Almost ready to migrate to SSL!"
+msgstr "Nästan redo att flytta till SSL!"
+
+#: class-multisite.php:589
+msgid "Networkwide activation does not check if a site has an SSL certificate. It just migrates all sites to SSL."
+msgstr "Aktivering för hela nätverket flyttar alla webbplatser till SSL utan att kontrollera om de har något SSL-certifikat."
+
+#: class-multisite.php:586
+msgid "Activate SSL per site"
+msgstr "Aktivera SSL per webbplats"
+
+#: class-multisite.php:583
+msgid "Activate SSL networkwide"
+msgstr "Aktivera SSL för hela nätverket"
+
+#: class-admin.php:50 class-cache.php:11 class-certificate.php:14
+#: class-front-end.php:18 class-help.php:9 class-mixed-content-fixer.php:13
+#: class-multisite.php:28 class-site-health.php:12
+#: lets-encrypt/class-letsencrypt-handler.php:30
+msgid "%s is a singleton class and you cannot create a second instance."
+msgstr "%s är en singulär klass som inte tillåter att en andra instans skapas."
+
+#: class-admin.php:4375
+msgid ".htaccess is currently not %swritable%s."
+msgstr ".htaccess är just nu %sinte skrivbar%s."
+
+#: class-admin.php:3186
+msgid "Mixed content fixer was successfully detected on the front-end."
+msgstr "Korrigeringsrutinen för blandat innehåll har upptäckts på webbplatsens publika del."
+
+#: class-admin.php:2957 class-multisite.php:468
+#: grid/templates/tips-tricks-footer.php:3
+msgid "Documentation"
+msgstr "Dokumentation"
+
+#. Description of the plugin
+msgid "Lightweight plugin without any setup to make your site SSL proof"
+msgstr "Ett litet tillägg som inte kräver några inställningar för att göra din webbplats SSL-säker"
+
+#. Plugin URI of the plugin
+msgid "https://really-simple-ssl.com"
+msgstr "https://really-simple-ssl.com"
+
+#. Plugin Name of the plugin
+msgid "Really Simple SSL"
+msgstr "Really Simple SSL"
+
+#: class-admin.php:4184
+msgid "Stop editing the .htaccess file"
+msgstr "Sluta redigera .htaccess-filen"
+
+#: grid/templates/settings-footer.php:3
+#: lets-encrypt/wizard/class-field.php:1302
+msgid "Save"
+msgstr "Spara"
+
+#: class-admin.php:3164
+msgid "An SSL certificate was detected on your site."
+msgstr "Ett SSL-certifikat upptäcktes på din webbplats."
+
+#: class-site-health.php:129
+msgid "No SSL detected."
+msgstr "Inget SSL upptäckt."
+
+#: class-admin.php:2902 class-admin.php:3786 class-admin.php:4164
+#: class-admin.php:4720 class-multisite.php:225 class-multisite.php:337
+#: class-multisite.php:409
+msgid "Settings"
+msgstr "﻿Inställningar"
+
+#: class-admin.php:4167
+msgid "Mixed content fixer"
+msgstr "Korrigeringsrutin för blandat innehåll"
+
+#: class-admin.php:2880
+msgid "SSL"
+msgstr "SSL"
+
+#: class-admin.php:2879
+msgid "SSL settings"
+msgstr "SSL-inställningar"
+
+#: class-multisite.php:146
+msgid "Activate networkwide to fix this."
+msgstr "Aktivera för hela nätverket för att korrigera detta."
+
+#: class-multisite.php:145
+msgid "Because the $_SERVER[\"HTTPS\"] variable is not set, your website may experience redirect loops."
+msgstr "Din webbplats kan ha problem med omdirigerings-loopar p.g.a. att variabeln $_SERVER[\"HTTPS\"] inte ges något värde."
+
+#: class-multisite.php:144
+msgid "You run a Multisite installation with subfolders, which prevents this plugin from fixing your missing server variable in the wp-config.php."
+msgstr "Du har en nätverksinstallation med underkataloger, vilket gör att detta tillägg inte kan korrigera den saknade servervariabeln i wp-config.php."
+
+#: class-admin.php:3049
+msgid "Check again"
+msgstr "Kontrollera igen"
+
+#: class-admin.php:3047
+msgid "Major security issue!"
+msgstr "Stort säkerhetsproblem!"
