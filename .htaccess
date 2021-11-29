@@ -1,9 +1,15 @@
+<<<<<<< HEAD
 #This Apache config file was created by Duplicator Installer on 2021-11-29 09:28:49.
 #The original can be found in archived file with the name .htaccess__[HASH]
+=======
+#This Apache config file was created by Duplicator Installer on 2021-11-29 09:23:55.
+#The original can be found in archived file with the name .htaccess__[HASH]
+>>>>>>> 86147490fa30fe5671724b24f4137ae8074006ec
 
 # BEGIN WordPress
 <IfModule mod_rewrite.c>
 RewriteEngine On
+<<<<<<< HEAD
 RewriteBase /grupparbete/
 RewriteRule ^index\.php$ - [L]
 RewriteCond %{REQUEST_FILENAME} !-f
@@ -11,3 +17,13 @@ RewriteCond %{REQUEST_FILENAME} !-d
 RewriteRule . /grupparbete/index.php [L]
 </IfModule>
 # END WordPress
+=======
+RewriteBase /
+RewriteRule ^index\.php$ - [L]
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule . /index.php [L]
+</IfModule>
+# END WordPress
+
+>>>>>>> 86147490fa30fe5671724b24f4137ae8074006ec
