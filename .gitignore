@@ -1,3 +1,5 @@
 wp-config.php
+
 .htaccess
-/wp-content/backups-dup-lite/
+
+wp-content/backups-dup-lite/
