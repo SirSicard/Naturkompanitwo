@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <?php
 /**
  * Snap stream utils
@@ -28,4 +29,36 @@ if (!class_exists('DupLiteSnapLibStreamU', false)) {
             return $line;
         }
     }
+=======
+<?php
+/**
+ * Snap stream utils
+ *
+ * Standard: PSR-2
+ * @link http://www.php-fig.org/psr/psr-2
+ *
+ * @package DupLiteSnapLib
+ * @copyright (c) 2017, Snapcreek LLC
+ * @license	https://opensource.org/licenses/GPL-3.0 GNU Public License
+ *
+ */
+defined('ABSPATH') || defined('DUPXABSPATH') || exit;
+
+if (!class_exists('DupLiteSnapLibStreamU', false)) {
+
+    class DupLiteSnapLibStreamU
+    {
+
+        public static function streamGetLine($handle, $length, $ending)
+        {
+            $line = stream_get_line($handle, $length, $ending);
+
+            if ($line === false) {
+                throw new Exception('Error reading line.');
+            }
+
+            return $line;
+        }
+    }
+>>>>>>> 73c97709f14f5873fddf294e3b3459fb7688a68b
 }
