@@ -74,6 +74,13 @@
 
             <div class="header-actions d-flex align-items-center">
 
+            <?php if (is_user_logged_in()) { ?>
+    	<a href="<?php echo wp_logout_url( home_url() ); ?>">Logout</a>
+      <?php } else { get_template_part('ajax', 'auth'); ?>            	
+              <a class="login_button" id="show_login" href="">Login</a>
+              <a class="login_button" id="show_signup" href="">Signup</a>
+      <?php } ?>
+
               <!-- Top Nav Widget -->
               <div class="top-nav-widget">
                 <?php if (is_active_sidebar('top-nav')) : ?>
