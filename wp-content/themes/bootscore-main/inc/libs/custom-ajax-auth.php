@@ -9,7 +9,7 @@ function ajax_auth_init(){
  
     wp_localize_script( 'ajax-auth-script', 'ajax_auth_object', array( 
         'ajaxurl' => admin_url( 'admin-ajax.php' ),
-        'redirecturl' => home_url(),
+        'redirecturl' => wc_get_page_permalink( 'myaccount' ),
         'loadingmessage' => __('Sending user info, please wait...')
     ));
  
