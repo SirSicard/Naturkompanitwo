@@ -9,8 +9,11 @@
 	<label for="password">Password</label>
 	<input id="password" type="password" class="required" name="password">
 	<a class="text-link" href="<?php
-								echo wp_lostpassword_url(); ?>">Lost password?</a>
+		echo wp_lostpassword_url(); ?>">Lost password?</a>
 	<input class="submit_button" type="submit" value="LOGIN">
+
+	<div class="fb-login-button" data-width="" data-size="large" data-button-type="continue_with" data-layout="default" data-auto-logout-link="false" data-use-continue-as="true"></div>
+
 	<a class="close" href="">(close)</a>
 </form>
 
