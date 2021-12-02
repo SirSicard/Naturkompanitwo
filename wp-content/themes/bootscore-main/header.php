@@ -133,7 +133,7 @@
 
               <?php if (!is_user_logged_in()) { ?>
                 <?php get_template_part('ajax', 'auth'); ?>
-                <button class="btn btn-outline-secondary ms-1 ms-md-2"><a class="login_button" id="show_login" href=""><i class="fas fa-user"></i> <?php _e('Logga In','bootscore')?> </a>
+                <button class="btn btn-outline-secondary ms-1 ms-md-2"><a class="login_button" id="show_login" href=""><i class="fas fa-user"></i> <?php _e('Log in','bootscore')?> </a>
                 </button>
                 <!--<button class="btn btn-outline-secondary ms-1 ms-md-2">
                   <a class="login_button" id="show_signup" href="">Signup</a>
