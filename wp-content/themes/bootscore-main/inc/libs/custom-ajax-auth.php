@@ -77,7 +77,7 @@ function auth_user_login($user_login, $password, $login)
 		echo json_encode(array('loggedin'=>false, 'message'=>__('Fel användarnamn eller lösenord.')));
     } else {
 		wp_set_current_user($user_signon->ID); 
-        echo json_encode(array('loggedin'=>true, 'message'=>__($login.' Omdirigerar...')));
+        echo json_encode(array('loggedin'=>true, 'message'=>__('Omdirigerar...')));
     }
 	
 	die();
