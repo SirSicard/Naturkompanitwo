@@ -1,8 +1,6 @@
 <?php
 function ajax_auth_init(){	
-	wp_register_style( 'ajax-auth-style', get_template_directory_uri() . '/css/ajax-auth-style.css' );
-	wp_enqueue_style('ajax-auth-style');
-	
+
 	wp_register_script('validate-script', get_template_directory_uri() . '/js/jquery.validate.js', array('jquery') ); 
     wp_enqueue_script('validate-script');
  
@@ -12,7 +10,7 @@ function ajax_auth_init(){
     wp_localize_script( 'ajax-auth-script', 'ajax_auth_object', array( 
         'ajaxurl' => admin_url( 'admin-ajax.php' ),
         'redirecturl' => home_url(),
-        'loadingmessage' => __('Sending user info, please wait...')
+        'loadingmessage' => __('Skickar användarinformation, vänligen vänta...')
     ));
  
     // Enable the user with no privileges to run ajax_login() in AJAX
@@ -57,9 +55,9 @@ function ajax_register(){
 		if(in_array('empty_user_login', $error))
 			echo json_encode(array('loggedin'=>false, 'message'=>__($user_register->get_error_message('empty_user_login'))));
 		elseif(in_array('existing_user_login',$error))
-			echo json_encode(array('loggedin'=>false, 'message'=>__('This username is already registered.')));
+			echo json_encode(array('loggedin'=>false, 'message'=>__('Detta användarnamn är redan registrerat.')));
 		elseif(in_array('existing_user_email',$error))
-        echo json_encode(array('loggedin'=>false, 'message'=>__('This email address is already registered.')));
+        echo json_encode(array('loggedin'=>false, 'message'=>__('Den här email adressen är redan registrerad.')));
     } else {
 	  auth_user_login($info['nickname'], $info['user_pass'], 'Registration');       
     }
@@ -76,10 +74,10 @@ function auth_user_login($user_login, $password, $login)
 	
 	$user_signon = wp_signon( $info, '' ); // From false to '' since v4.9
     if ( is_wp_error($user_signon) ){
-		echo json_encode(array('loggedin'=>false, 'message'=>__('Wrong username or password.')));
+		echo json_encode(array('loggedin'=>false, 'message'=>__('Fel användarnamn eller lösenord.')));
     } else {
 		wp_set_current_user($user_signon->ID); 
-        echo json_encode(array('loggedin'=>true, 'message'=>__($login.' successful, redirecting...')));
+        echo json_encode(array('loggedin'=>true, 'message'=>__($login.' Omdirigerar...')));
     }
 	
 	die();

@@ -4,20 +4,16 @@ form.ajax-auth{
 	position: fixed;
     top: 150px;
 	left: 50%;
-	width: 350px;
+	width: 400px;
 	margin-left: -200px;
-    padding: 40px 25px 25px 25px;
+    padding: 3rem;
 	background-color: #FFFFFF;
     border-radius: 8px;
-    font-family: Arial, Helvetica, sans-serif;
-    box-shadow: 0 0 6px rgba(0, 0, 0, 0.2);   
+    box-shadow: 0 0 3px rgb(0 0 0 / 5%);  
     color: #878787;
-    font-size: 11px;
 }
  
 .ajax-auth h1, .ajax-auth h3{
-    font-family: 'Georgia', 'Times New Roman', Times, serif;
-    font-weight: 100;
     color: #333333;    
 	line-height: 1;    
 }
@@ -29,15 +25,11 @@ form.ajax-auth{
 }
  
 .ajax-auth h3{
-    font-size: 18px;
-    text-align: left;
+    font-size: 1rem;
+    text-align: center;
     margin: 0;
 }
- 
-.ajax-auth h3 a{
-	color: #e25c4c;
-}
- 
+  
 .ajax-auth hr {
     background-color: rgba(0, 0, 0, 0.1);
     border: 0 none;
@@ -57,10 +49,8 @@ form.ajax-auth{
     color: #333333;
     font-size: 15px;
     padding: 10px 10px 10px 13px;
-    width: 325px;
-    margin: 7px 0 20px 0;
+    margin: 5px 0 10px 0;
     background-color: #F9F9F9;
-    font-family: 'Georgia', 'Times New Roman', Times, serif;
 }
  
 .ajax-auth input#username:focus,
@@ -80,36 +70,21 @@ form.ajax-auth{
 	border: 1px solid #FF0000 !important;
 }
  
-.ajax-auth input.submit_button{
-    font-size: 13px;
-    color: #FFF;
-    border: 1px solid #b34336;
-    background-color: #e25c4c;
-    border-radius: 3px;
-    text-shadow: 0 1px 0 #ba3f31;
-    padding: 9px 31px 9px 31px;
-    background: -moz-linear-gradient(top, #ea6656, #df5949);
-    border-top: 1px solid #bb483a;
-    border-bottom: 1px solid #a63b2e;
-    float: right;
-    box-shadow: 0 1px 0 #E87A6E inset;
-}
- 
-.ajax-auth a{
+.ajax-auth a {
     text-decoration: none;
 }
  
 .ajax-auth a.close{
-    color: #DCDCDC;
     position: absolute;
-    right: 15px;
+    right: 20px;
     top: 15px;
 }
  
 .ajax-auth a.text-link{
-    color: #B4B2B2;
-    float: left;
-    margin: 10px 0 0 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    font-size: 0.8rem;
 }
  
 .ajax-auth p.status{
@@ -120,14 +95,12 @@ form.ajax-auth{
 }
  
 a.login_button{
-    font-family: Arial, Helvetica, sans-serif;
     padding: 5px 7px 5px 7px;
     background-color: #FFF;
     border-radius: 3px;
     border: 1px solid #DCDCDC;
     color: #333;
     text-decoration: none;
-    font-size: 11px;
 }
  
 .login_overlay{
@@ -137,4 +110,10 @@ a.login_button{
     opacity: 0.9;
     position: fixed;
     z-index: 998;
+}
+
+.fb_iframe_widget {
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: center;
 }
