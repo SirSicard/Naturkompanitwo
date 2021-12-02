@@ -1,7 +1,7 @@
 <?php
 
 /**
- * The header for our theme
+ * The header for our WooCommerce theme
  *
  * This is the template that displays all of the <head> section and everything up until <div id="content">
  *
@@ -30,10 +30,31 @@
 </head>
 
 <body <?php body_class(); ?>>
-    
+
   <?php wp_body_open(); ?>
 
+  <script>
+    window.fbAsyncInit = function() {
+    FB.init({
+      appId      : '448998139906757',
+      xfbml      : true,
+      version    : 'v12.0'
+    });
+    FB.AppEvents.logPageView();
+  };
+
+  (function(d, s, id){
+     var js, fjs = d.getElementsByTagName(s)[0];
+     if (d.getElementById(id)) {return;}
+     js = d.createElement(s); js.id = id;
+     js.src = "https://connect.facebook.net/en_US/sdk.js";
+     fjs.parentNode.insertBefore(js, fjs);
+   }(document, 'script', 'facebook-jssdk'));
+  </script>
+
   <div id="to-top"></div>
+
+  
 
   <div id="page" class="site">
 
@@ -72,8 +93,16 @@
               </div>
             </div>
 
-
             <div class="header-actions d-flex align-items-center">
+
+
+              <?php if (is_user_logged_in()) { ?>
+                <a href="<?php echo wp_logout_url(home_url()); ?>">Logout</a>
+              <?php } else {
+                get_template_part('ajax', 'auth'); ?>
+                <a class="login_button" id="show_login" href="">Login</a>
+                <a class="login_button" id="show_signup" href="">Signup</a>
+              <?php } ?>
 
               <!-- Top Nav Widget -->
               <div class="top-nav-widget">
@@ -84,18 +113,29 @@
                 <?php endif; ?>
               </div>
 
-              <!-- Searchform Large -->
-              <div class="d-none d-lg-block ms-1 ms-md-2 top-nav-search-lg">
-                <?php if (is_active_sidebar('top-nav-search')) : ?>
-                  <div>
-                    <?php dynamic_sidebar('top-nav-search'); ?>
-                  </div>
-                <?php endif; ?>
-              </div>
-
-              <!-- Search Toggler Mobile -->
-              <button class="btn btn-outline-secondary d-lg-none ms-1 ms-md-2 top-nav-search-md" type="button" data-bs-toggle="collapse" data-bs-target="#collapse-search" aria-expanded="false" aria-controls="collapse-search">
+              <!-- Search Toggler -->
+              <button class="btn btn-outline-secondary ms-1 ms-md-2 top-nav-search-md" type="button" data-bs-toggle="collapse" data-bs-target="#collapse-search" aria-expanded="false" aria-controls="collapse-search">
                 <i class="fas fa-search"></i>
+              </button>
+
+              <!-- User Toggler -->
+              <button class="btn btn-outline-secondary ms-1 ms-md-2" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvas-user" aria-controls="offcanvas-user">
+                <i class="fas fa-user"></i>
+              </button>
+
+              <!-- Mini Cart Toggler -->
+              <button class="btn btn-outline-secondary ms-1 ms-md-2 position-relative" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvas-cart" aria-controls="offcanvas-cart">
+                <i class="fas fa-shopping-bag"></i>
+                <?php if (in_array('woocommerce/woocommerce.php', apply_filters('active_plugins', get_option('active_plugins')))) {
+                  $count = WC()->cart->cart_contents_count;
+                ?>
+                  <span class="cart-content">
+                    <?php if ($count > 0) { ?>
+                      <?php echo esc_html($count); ?>
+                    <?php
+                    }
+                    ?></span>
+                <?php } ?>
               </button>
 
               <!-- Navbar Toggler -->
@@ -109,8 +149,8 @@
 
         </nav><!-- .navbar -->
 
-        <!-- Top Nav Search Mobile Collapse -->
-        <div class="collapse container d-lg-none" id="collapse-search">
+        <!-- Top Nav Search Collapse -->
+        <div class="collapse container" id="collapse-search">
           <?php if (is_active_sidebar('top-nav-search')) : ?>
             <div class="mb-2">
               <?php dynamic_sidebar('top-nav-search'); ?>
@@ -119,6 +159,37 @@
         </div>
 
       </div><!-- .fixed-top .bg-light -->
+
+      <!-- offcanvas user -->
+      <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvas-user">
+        <div class="offcanvas-header bg-light">
+          <span class="h5 mb-0"><?php esc_html_e('Account', 'bootscore'); ?></span>
+          <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+        </div>
+        <div class="offcanvas-body">
+          <div class="my-offcancas-account">
+            <?php include get_template_directory() . '/woocommerce/myaccount/my-account-offcanvas.php'; ?>
+          </div>
+        </div>
+      </div>
+
+      <!-- offcanvas cart -->
+      <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvas-cart">
+        <div class="offcanvas-header bg-light">
+          <span class="h5 mb-0"><?php esc_html_e('Cart', 'bootscore'); ?></span>
+          <button type="button" class="btn-close text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+        </div>
+        <div class="offcanvas-body p-0">
+          <div class="cart-loader bg-white position-absolute end-0 bottom-0 start-0 d-flex align-items-center justify-content-center">
+            <div class="loader-icon ">
+              <div class="spinner-border text-primary"></div>
+            </div>
+          </div>
+          <div class="cart-list">
+            <div class="widget_shopping_cart_content"><?php woocommerce_mini_cart(); ?></div>
+          </div>
+        </div>
+      </div>
 
     </header><!-- #masthead -->
 

@@ -478,3 +478,8 @@ add_filter('gutenberg_use_widgets_block_editor', '__return_false');
 // Disables the block editor from managing widgets.
 add_filter('use_widgets_block_editor', '__return_false');
 // Disable Gutenberg blocks in widgets (WordPress 5.8) END
+
+
+// Add funtions for ajax forms. 
+
+require_once( get_template_directory() . '/inc/libs/custom-ajax-auth.php' );
