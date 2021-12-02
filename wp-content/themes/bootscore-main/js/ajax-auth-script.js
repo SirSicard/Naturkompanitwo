@@ -1,6 +1,6 @@
 jQuery(document).ready(function ($) {
     // Display form from link inside a popup
-	$('#pop_login, #pop_signup').live('click', function (e) {
+	$('#pop_login, #pop_signup').on('click', function (e) {
         formToFadeOut = $('form#register');
         formtoFadeIn = $('form#login');
         if ($(this).attr('id') == 'pop_signup') {
