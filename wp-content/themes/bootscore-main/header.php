@@ -30,7 +30,7 @@
 </head>
 
 <body <?php body_class(); ?>>
-    
+
   <?php wp_body_open(); ?>
 
   <div id="to-top"></div>
@@ -73,6 +73,14 @@
             </div>
 
             <div class="header-actions d-flex align-items-center">
+
+              <?php if (is_user_logged_in()) { ?>
+                <a href="<?php echo wp_logout_url(home_url()); ?>">Logout</a>
+              <?php } else {
+                get_template_part('ajax', 'auth'); ?>
+                <a class="login_button" id="show_login" href="">Login</a>
+                <a class="login_button" id="show_signup" href="">Signup</a>
+              <?php } ?>
 
               <!-- Top Nav Widget -->
               <div class="top-nav-widget">
