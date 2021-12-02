@@ -95,15 +95,6 @@
 
             <div class="header-actions d-flex align-items-center">
 
-
-              <?php if (is_user_logged_in()) { ?>
-                <a href="<?php echo wp_logout_url(home_url()); ?>">Logout</a>
-              <?php } else {
-                get_template_part('ajax', 'auth'); ?>
-                <a class="login_button" id="show_login" href="">Login</a>
-                <a class="login_button" id="show_signup" href="">Signup</a>
-              <?php } ?>
-
               <!-- Top Nav Widget -->
               <div class="top-nav-widget">
                 <?php if (is_active_sidebar('top-nav')) : ?>
@@ -119,9 +110,11 @@
               </button>
 
               <!-- User Toggler -->
+              <?php if (is_user_logged_in()) { ?>
               <button class="btn btn-outline-secondary ms-1 ms-md-2" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvas-user" aria-controls="offcanvas-user">
                 <i class="fas fa-user"></i>
               </button>
+              <?php } ?>
 
               <!-- Mini Cart Toggler -->
               <button class="btn btn-outline-secondary ms-1 ms-md-2 position-relative" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvas-cart" aria-controls="offcanvas-cart">
@@ -137,6 +130,15 @@
                     ?></span>
                 <?php } ?>
               </button>
+
+              <?php if (!is_user_logged_in()) { ?>
+                <?php get_template_part('ajax', 'auth'); ?>
+                <button class="btn btn-outline-secondary ms-1 ms-md-2"><a class="login_button" id="show_login" href=""><i class="fas fa-user"></i> <?php _e('Logga In','bootscore')?> </a>
+                </button>
+                <!--<button class="btn btn-outline-secondary ms-1 ms-md-2">
+                  <a class="login_button" id="show_signup" href="">Signup</a>
+                </button> -->
+              <?php } ?>
 
               <!-- Navbar Toggler -->
               <button class="btn btn-outline-secondary d-lg-none ms-1 ms-md-2" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvas-navbar" aria-controls="offcanvas-navbar">

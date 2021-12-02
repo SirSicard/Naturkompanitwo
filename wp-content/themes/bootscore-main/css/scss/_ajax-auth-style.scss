@@ -95,12 +95,13 @@ form.ajax-auth{
 }
  
 a.login_button{
-    padding: 5px 7px 5px 7px;
-    background-color: #FFF;
-    border-radius: 3px;
-    border: 1px solid #DCDCDC;
-    color: #333;
+    color: rgba(0, 0, 0, 0.55);
     text-decoration: none;
+    
+}
+
+.login_button:hover {
+    color: white;
 }
  
 .login_overlay{
