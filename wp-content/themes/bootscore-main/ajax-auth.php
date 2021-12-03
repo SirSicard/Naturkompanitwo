@@ -29,7 +29,7 @@
 			echo NextendSocialLogin::renderButtonsWithContainer();
 		}
 	?>
-	
+
 	<a class="close" href="">
 		<i class="fas fa-window-close fa-lg"></i>
 	</a>
