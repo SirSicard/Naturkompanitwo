@@ -24,10 +24,8 @@
 
 	<!-- <div class="fb-login-button btn w-100" data-width="" data-size="large" data-button-type="continue_with" data-layout="default" data-auto-logout-link="false" data-use-continue-as="true"></div> -->
 
-	<a href="https://naturkompanitva.ashish.se/wp-login.php?loginSocial=facebook" data-plugin="nsl" data-action="connect" data-redirect="current" data-provider="facebook" data-popupwidth="600" data-popupheight="679">
-		Click here to login or register
-	</a>
-
+	<?php if(class_exists('NextendSocialLogin', false)){ NextendSocialLogin::renderButtonsWithContainer(); } ?>
+	
 	<a class="close" href="">
 		<i class="fas fa-window-close fa-lg"></i>
 	</a>
