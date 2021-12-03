@@ -45,7 +45,7 @@
 		<input id="signonname" type="text" name="signonname" class="required w-100">
 	<label for="email"><?php _e('Email','bootscore') ?></label>
 		<input id="email" type="text" class="required email w-100" name="email">
-	<label for="signonpassword"><?php _e('Password','bootscore')?></label>
+	<label for="signonpassword"><?php _e('Password','bootscore') ?></label>
 		<input id="signonpassword" type="password" class="required w-100" name="signonpassword">
 	<label for="password2"><?php _e('Confirm password','bootscore') ?></label>
 		<input type="password" id="password2" class="required w-100" name="password2">
