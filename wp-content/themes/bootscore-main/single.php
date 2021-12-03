@@ -60,7 +60,7 @@ get_header();  ?>
         </main> <!-- #main -->
 
       </div><!-- col -->
-      <?php get_sidebar(); ?>
+     
     </div><!-- row -->
 
   </div><!-- #primary -->
