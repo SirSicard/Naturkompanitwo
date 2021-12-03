@@ -1,8 +1,6 @@
 <?php
 function ajax_auth_init(){	
-	wp_register_style( 'ajax-auth-style', get_template_directory_uri() . '/css/ajax-auth-style.css' );
-	wp_enqueue_style('ajax-auth-style');
-	
+
 	wp_register_script('validate-script', get_template_directory_uri() . '/js/jquery.validate.js', array('jquery') ); 
     wp_enqueue_script('validate-script');
  
@@ -11,7 +9,7 @@ function ajax_auth_init(){
  
     wp_localize_script( 'ajax-auth-script', 'ajax_auth_object', array( 
         'ajaxurl' => admin_url( 'admin-ajax.php' ),
-        'redirecturl' => home_url(),
+        'redirecturl' => wc_get_page_permalink( 'myaccount' ),
         'loadingmessage' => __('Sending user info, please wait...')
     ));
  
@@ -79,7 +77,7 @@ function auth_user_login($user_login, $password, $login)
 		echo json_encode(array('loggedin'=>false, 'message'=>__('Wrong username or password.')));
     } else {
 		wp_set_current_user($user_signon->ID); 
-        echo json_encode(array('loggedin'=>true, 'message'=>__($login.' successful, redirecting...')));
+        echo json_encode(array('loggedin'=>true, 'message'=>__('Successful, redirecting...')));
     }
 	
 	die();
