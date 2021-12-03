@@ -14,7 +14,7 @@ get_header();  ?>
     <?php the_breadcrumb(); ?>
 
     <div class="row">
-      <div class="col-md-8 col-xxl-9">
+      <div class="col-md-12 col-xxl-12">
 
         <main id="main" class="site-main">
 
