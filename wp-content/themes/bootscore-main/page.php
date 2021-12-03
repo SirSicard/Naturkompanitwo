@@ -56,7 +56,7 @@ get_header();
         </main><!-- #main -->
 
       </div><!-- col -->
-      <?php get_sidebar(); ?>
+      <!-- deleted get_sidebar here... -->
     </div><!-- row -->
 
   </div><!-- #primary -->
