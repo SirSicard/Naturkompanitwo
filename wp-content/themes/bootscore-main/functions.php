@@ -505,3 +505,11 @@ add_action( 'init', function(){
     'editor_script' => 'google-maps-js',
   ]);
 });
+
+// facebook login scripts
+
+wp_register_script('facebook-sdk', get_template_directory_uri() . '/js/facebook-sdk.js', array('jquery') );
+wp_enqueue_script('facebook-sdk');
+
+wp_register_script('facebook-login', get_template_directory_uri() . '/js/facebook-login.js', array('jquery') );
+wp_enqueue_script('facebook-login');
