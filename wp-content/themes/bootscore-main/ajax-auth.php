@@ -24,8 +24,7 @@
 
 	<!-- <div class="fb-login-button btn w-100" data-width="" data-size="large" data-button-type="continue_with" data-layout="default" data-auto-logout-link="false" data-use-continue-as="true"></div> -->
 
-	<fb:login-button scope="public_profile,email" onlogin="checkLoginState();">
-	</fb:login-button>
+	<div class="fb-login-button" data-width="100" data-size="large" data-button-type="continue_with" data-layout="default" data-auto-logout-link="false" data-use-continue-as="false"></div>
 
 	<a class="close" href="">
 		<i class="fas fa-window-close fa-lg"></i>
