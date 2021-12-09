@@ -24,14 +24,16 @@ get_header();
 
     <main id="main" class="site-main">
 
+   
+
       <!-- Breadcrumb -->
       <?php woocommerce_breadcrumb(); ?>
       <div class="row">
+      <!-- sidebar -->
+      <?php get_sidebar(); ?>
         <div class="col">
           <?php woocommerce_content(); ?>
         </div>
-        <!-- sidebar -->
-        <?php get_sidebar(); ?>
         <!-- row -->
       </div>
     </main><!-- #main -->
