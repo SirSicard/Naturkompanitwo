@@ -24,11 +24,8 @@
 
 	<!-- <div class="fb-login-button btn w-100" data-width="" data-size="large" data-button-type="continue_with" data-layout="default" data-auto-logout-link="false" data-use-continue-as="true"></div> -->
 
-	<?php
-		if(class_exists('NextendSocialLogin', false)){
-			echo NextendSocialLogin::renderButtonsWithContainer();
-		}
-	?>
+	<fb:login-button scope="public_profile,email" onlogin="checkLoginState();">
+	</fb:login-button>
 
 	<a class="close" href="">
 		<i class="fas fa-window-close fa-lg"></i>
