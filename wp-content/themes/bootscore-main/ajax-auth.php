@@ -1,4 +1,4 @@
-<script async defer crossorigin="anonymous" src="https://connect.facebook.net/en_US/sdk.js"></script>
+
 
 <form id="login" class="ajax-auth" action="login" method="post">
 	<h1>
@@ -26,10 +26,11 @@
 
 	<!-- <div class="fb-login-button btn w-100" data-width="" data-size="large" data-button-type="continue_with" data-layout="default" data-auto-logout-link="false" data-use-continue-as="true"></div> -->
 
+	<!-- The JS SDK Login Button -->
+
 	<fb:login-button scope="public_profile,email" onlogin="checkLoginState();">
 	</fb:login-button>
 
-	<!-- The JS SDK Login Button -->
 	<div id="status">
 	</div>
 
