@@ -1,3 +1,5 @@
+<script async defer crossorigin="anonymous" src="https://connect.facebook.net/en_US/sdk.js"></script>
+
 <form id="login" class="ajax-auth" action="login" method="post">
 	<h1>
 		<?php _e('Log in', 'bootscore')?>
@@ -26,6 +28,10 @@
 
 	<fb:login-button scope="public_profile,email" onlogin="checkLoginState();">
 	</fb:login-button>
+
+	<!-- The JS SDK Login Button -->
+	<div id="status">
+	</div>
 
 	<a class="close" href="">
 		<i class="fas fa-window-close fa-lg"></i>
