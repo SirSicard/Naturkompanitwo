@@ -499,35 +499,10 @@ function iconic_bypass_logout_confirmation() {
 
 add_action( 'template_redirect', 'iconic_bypass_logout_confirmation' );
 
-add_action( 'init', function(){
-  wp_register_script('google-maps-js', get_template_directory_uri() . '/build/index.js', ['wp-blocks', 'wp-components', 'wp-editor']);
-  register_block_type('wcms-maps/google-map', [
-    'editor_script' => 'google-maps-js',
-  ]);
-});
+// add_action( 'init', function(){
+//   wp_register_script('google-maps-js', get_template_directory_uri() . '/build/index.js', ['wp-blocks', 'wp-components', 'wp-editor']);
+//   register_block_type('wcms-maps/google-map', [
+//     'editor_script' => 'google-maps-js',
+//   ]);
+// });
 
-// Hook the appropriate WordPress action
-add_action('init', 'prevent_wp_login');
-
-function prevent_wp_login() {
-    // WP tracks the current page - global the variable to access it
-    global $pagenow;
-    // Check if a $_GET['action'] is set, and if so, load it into $action variable
-    $action = (isset($_GET['action'])) ? $_GET['action'] : '';
-    // Check if we're on the login page, and ensure the action is not 'logout'
-    if( $pagenow == 'wp-login.php' && ( ! $action || ( $action && ! in_array($action, array('logout', 'lostpassword', 'rp', 'resetpass'))))) {
-        // Load the home page url
-        $page = get_bloginfo('url');
-        // Redirect to the home page
-        wp_redirect($page);
-        // Stop execution to prevent the page loading for any reason
-        exit();
-    }
-}
-// facebook login scripts
-
-wp_register_script('facebook-sdk', get_template_directory_uri() . '/js/facebook-sdk.js', array('jquery') );
-wp_enqueue_script('facebook-sdk');
-
-wp_register_script('facebook-login', get_template_directory_uri() . '/js/facebook-login.js', array('jquery') );
-wp_enqueue_script('facebook-login');
