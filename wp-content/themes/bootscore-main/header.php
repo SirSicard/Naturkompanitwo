@@ -26,14 +26,16 @@
   <link rel="mask-icon" href="<?php echo get_stylesheet_directory_uri(); ?>/img/favicon/safari-pinned-tab.svg" color="#0d6efd">
   <meta name="msapplication-TileColor" content="#ffffff">
   <meta name="theme-color" content="#ffffff">
+
+  <script async defer crossorigin="anonymous" src="https://connect.facebook.net/sv_SE/sdk.js#xfbml=1&version=v12.0&appId=519677222339502&autoLogAppEvents=1" nonce="tsJTZEmm">
  
-<script>
+
   window.fbAsyncInit = function() {
     FB.init({
-      appId      : '519677222339502',
+      appId      : 519677222339502,
       cookie     : true,
       xfbml      : true,
-      version    : '12'
+      version    : 12
     });
       
     FB.AppEvents.logPageView();   
@@ -59,9 +61,6 @@ function checkLoginState() {
 }
 
 </script>
-
-<script async defer crossorigin="anonymous" src="https://connect.facebook.net/sv_SE/sdk.js#xfbml=1&version=v12.0&appId=519677222339502&autoLogAppEvents=1" nonce="tsJTZEmm"></script>
-
   <?php wp_head(); ?>
 </head>
 
