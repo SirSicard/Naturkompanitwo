@@ -24,7 +24,7 @@
 
 	<!-- The JS SDK Login Button -->
 	
-	<FB:login-button scope="public_profile,email" onClick="checkLoginState();"></FB:login-button>
+	<FB:login-button scope="public_profile,email" onlogin="checkLoginState();"></FB:login-button>
 
 	<div id="status">
 	</div>
