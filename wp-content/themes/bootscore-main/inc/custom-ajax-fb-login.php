@@ -1,7 +1,7 @@
 <?php
 function ajax_fb_auth_init() {
-    wp_register_script('ajax-fb-auth', get_template_directory_uri() . '/js/ajax-auth-script.js', array('jquery') );
 
+    wp_register_script('ajax-fb-auth', get_template_directory_uri() . '/js/ajax-auth-script.js', array('jquery') );
     wp_enqueue_script('ajax-fb-auth');
 
     wp_localize_script('ajax-fb-auth', 'ajax_fb_auth_object', array(
@@ -10,7 +10,6 @@ function ajax_fb_auth_init() {
         'redirecturl' => wc_get_page_permalink( 'myaccount' ),
     ));
 
-    
     add_action('wp_ajax_nopriv_ajax_fb_login', 'ajax_fb_login');
 }
 // check is user is NOT logged in
@@ -19,8 +18,8 @@ if ( ! is_user_logged_in() ) {
 }
 // Get data from POST request
 function ajax_fb_login() {
-    check_ajax_referer( 'ajax-login-nonce', 'security' );
 
+    check_ajax_referer( 'ajax-login-nonce', 'security' );
     fb_auth_login($_POST['email'], $_POST['auth_token']);
 
     die();
@@ -31,7 +30,6 @@ function fb_auth_login($user_email, $auth_token) {
     // $data = array();
     // $data['email'] = $user_email;
     // $data['auth_token'] = $auth_token;
-
 
     $user = get_user_by('email', $user_email);
 
@@ -45,5 +43,6 @@ function fb_auth_login($user_email, $auth_token) {
         // echo "ERROR!!!11";
         exit();
     }
-exit();
+
+    exit();
 }

@@ -86,7 +86,7 @@ jQuery(document).ready(function ($) {
 
       }
 
-    $('#facebook-login').on('click', function(e) {
+    $('#fb_login').on('click', function(e) {
         FB.login(function(response)  {
             if (response.status === 'connected') {
                 console.log('success');

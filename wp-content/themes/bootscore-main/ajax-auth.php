@@ -24,7 +24,9 @@
 
 	<!-- The JS SDK Login Button -->
 	
-	<FB:login-button scope="public_profile,email" onlogin="checkLoginState();"></FB:login-button>
+	<fb:login-button scope="public_profile,email" onlogin="checkLoginState();"></fb:login-button>
+	<h3>Login with fb <a id="fb_login" href="">Fejsbok</a></h3>
+
 
 	<div id="status">
 	</div>
@@ -40,6 +42,8 @@
 	<h3> <?php _e('Already a member?', 'bootscore') ?>
 		<a id="pop_login" href=""><?php _e('Log in', 'bootscore') ?></a>
 	</h3>
+
+	
 
 	<hr />
 
