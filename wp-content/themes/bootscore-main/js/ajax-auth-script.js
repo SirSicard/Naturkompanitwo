@@ -12,7 +12,11 @@ jQuery(document).ready(function ($) {
       }
 
 
-    
+      function checkLoginState() {               // Called when a person is finished with the Login Button.
+        FB.getLoginStatus(function(response) {   // See the onlogin handler
+          statusChangeCallback(response);
+        });
+      }
 
 
       window.fbAsyncInit = function() {
@@ -178,9 +182,3 @@ jQuery(document).ready(function ($) {
 //       statusChangeCallback(response);        // Returns the login status.
 //     });
 //   };
-
-function checkLoginState() {               // Called when a person is finished with the Login Button.
-  FB.getLoginStatus(function(response) {   // See the onlogin handler
-    statusChangeCallback(response);
-  });
-}
