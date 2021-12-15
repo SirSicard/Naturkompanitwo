@@ -112,11 +112,8 @@ jQuery(document).ready(function ($) {
     // Show the login/signup popup on click
     $('#show_login, #show_signup').on('click', function (e) {
         $('body').prepend('<div class="login_overlay"></div>');
-        if ($(this).attr('id') == 'show_login') {
+        if ($(this).attr('id') == 'show_login') 
           $('form#login').fadeIn(500);
-          checkLoginState();
-        }
-		
         else 
 			$('form#register').fadeIn(500);
         e.preventDefault();
@@ -147,7 +144,7 @@ jQuery(document).ready(function ($) {
                 'action': action,
                 'username': username,
                 'password': password,
-				'email': email,
+				  'email': email,
                 'security': security
             },
             success: function (data) {

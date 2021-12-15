@@ -18,4 +18,8 @@ window.fbAsyncInit = function() {
   }(document, 'script', 'facebook-jssdk'));
 
 
-
+  function checkLoginState() {               // Called when a person is finished with the Login Button.
+    FB.getLoginStatus(function(response) {   // See the onlogin handler
+      statusChangeCallback(response);
+    });
+  }
