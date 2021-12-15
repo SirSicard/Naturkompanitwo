@@ -147,7 +147,7 @@ jQuery(document).ready(function ($) {
                 'action': action,
                 'username': username,
                 'password': password,
-				'email': email,
+				  'email': email,
                 'security': security
             },
             success: function (data) {
