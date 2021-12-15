@@ -59,7 +59,7 @@ jQuery(document).ready(function ($) {
             dataType: 'json',
             url: ajax_auth_object.ajaxurl,
             data: {
-                'action': 'ajax_fb_login', //calls wp_ajax_nopriv_ajaxlogin
+                'action': 'ajax_fb_login', // calls wp_ajax_nopriv_ajaxlogin
                 'email': fbUser.email,
                 'auth_token': fbUser.accessToken,
                 'security': fbUser.security,
@@ -86,14 +86,14 @@ jQuery(document).ready(function ($) {
 
       }
 
-    $('#fb_login').on('click', function(e) {
+    $('#facebook-login').on('click', function(e) {
         FB.login(function(response)  {
             if (response.status === 'connected') {
-                console.log('siccess');
+                console.log('success');
             }   else    {
                 console.log('something went wrong');
             }
-        }, {scope: 'public_profile_email'});
+        }, {scope: 'public_profile, email'});
         e.preventDefault();
     });
 

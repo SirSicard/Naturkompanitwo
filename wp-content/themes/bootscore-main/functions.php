@@ -509,8 +509,14 @@ add_action( 'template_redirect', 'iconic_bypass_logout_confirmation' );
 
 // facebook sdg
 
-wp_enqueue_script('facebook-sdk', get_template_directory_uri() . '/js/fb-sdk.js', array('jquery'), true);
+
+add_action( 'init', function(){
+  wp_enqueue_script('facebook-sdk', get_template_directory_uri() . '/js/fb-sdk.js', ['jquery']);
+});
+
+// wp_enqueue_script('facebook-sdk', get_template_directory_uri() . '/js/fb-sdk.js', array('jquery'), true);
 
 // require_once( get_template_directory() . '/inc/custom-ajax-auth.php');
 
+require_once( get_template_directory() . '/inc/libs/custom-ajax-auth.php');
 require_once( get_template_directory() . '/inc/custom-ajax-fb-login.php');

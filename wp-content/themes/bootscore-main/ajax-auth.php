@@ -1,9 +1,3 @@
-
-<!-- The JS SDK Login Button -->
-
-<!-- Load the JS SDK asynchronously -->
-
-
 <form id="login" class="ajax-auth" action="login" method="post">
 	<h1>
 		<?php _e('Log in', 'bootscore') ?>
@@ -28,13 +22,9 @@
 
 	<hr />
 
-	<!-- <div class="fb-login-button" data-width="" data-size="large" data-button-type="continue_with" data-layout="default" data-auto-logout-link="false" data-use-continue-as="false"></div>
- -->
-
 	<!-- The JS SDK Login Button -->
 	
-	<fb:login-button scope="public_profile,email" onlogin="checkLoginState();">
-    </fb:login-button>
+	<FB:login-button scope="public_profile,email" onClick="checkLoginState();"></FB:login-button>
 
 	<div id="status">
 	</div>

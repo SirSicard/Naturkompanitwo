@@ -6,9 +6,11 @@ function ajax_fb_auth_init() {
 
     wp_localize_script('ajax-fb-auth', 'ajax_fb_auth_object', array(
         'ajaxurl' => admin_url('admin-ajax.php'),
-        'redirecturl'   => home_url(),
+        //'redirecturl'   => home_url(),
+        'redirecturl' => wc_get_page_permalink( 'myaccount' ),
     ));
 
+    
     add_action('wp_ajax_nopriv_ajax_fb_login', 'ajax_fb_login');
 }
 // check is user is NOT logged in
