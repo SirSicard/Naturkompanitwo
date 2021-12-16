@@ -1,13 +1,12 @@
 <?php
 function ajax_fb_auth_init() {
-
     wp_register_script('ajax-fb-auth', get_template_directory_uri() . '/js/ajax-auth-script.js', array('jquery') );
+
     wp_enqueue_script('ajax-fb-auth');
 
     wp_localize_script('ajax-fb-auth', 'ajax_fb_auth_object', array(
         'ajaxurl' => admin_url('admin-ajax.php'),
-        //'redirecturl'   => home_url(),
-        'redirecturl' => wc_get_page_permalink( 'myaccount' ),
+        'redirecturl'   => home_url(),
     ));
 
     add_action('wp_ajax_nopriv_ajax_fb_login', 'ajax_fb_login');
@@ -18,8 +17,8 @@ if ( ! is_user_logged_in() ) {
 }
 // Get data from POST request
 function ajax_fb_login() {
-
     check_ajax_referer( 'ajax-login-nonce', 'security' );
+
     fb_auth_login($_POST['email'], $_POST['auth_token']);
 
     die();
@@ -31,6 +30,7 @@ function fb_auth_login($user_email, $auth_token) {
     // $data['email'] = $user_email;
     // $data['auth_token'] = $auth_token;
 
+
     $user = get_user_by('email', $user_email);
 
     // Check if user exists
@@ -39,10 +39,10 @@ function fb_auth_login($user_email, $auth_token) {
         wp_clear_auth_cookie();
         wp_set_current_user ( $user->ID );
         wp_set_auth_cookie ( $user->ID );
+        echo json_encode(array('loggedin'=>true));
     }   else    {
-        // echo "ERROR!!!11";
+        echo json_encode(array('loggedin'=>false));
         exit();
     }
-
-    exit();
+exit();
 }

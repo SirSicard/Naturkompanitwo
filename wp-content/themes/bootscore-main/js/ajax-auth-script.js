@@ -1,3 +1,4 @@
+
 jQuery(document).ready(function ($) {
     // Display form from link inside a popup
     function statusChangeCallback(response) {  // Called with the results from FB.getLoginStatus().
