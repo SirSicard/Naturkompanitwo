@@ -29,9 +29,15 @@
 
 	<div class="fb-login-button" data-width="100" data-size="large" data-button-type="continue_with" data-layout="default" data-auto-logout-link="false" data-use-continue-as="false" ></div>
 	
-	<!-- <fb:login-button scope="public_profile,email" onlogin="checkLoginState();">
-    </fb:login-button> -->
-	<h3>Login with fb <a id="fb_login" href="">Fejsbok</a></h3>
+	<?php
+	if(class_exists('NextendSocialLogin', false)){
+    	echo NextendSocialLogin::renderButtonsWithContainer();
+	}
+	?>
+
+	<!--<fb:login-button scope="public_profile,email" onlogin="checkLoginState();"></fb:login-button>-->
+	
+	<!--<h3>Login with fb <a id="fb_login" href="">Fejsbok</a></h3>-->
 
 
 	<div id="status">
