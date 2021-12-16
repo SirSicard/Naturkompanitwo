@@ -24,8 +24,15 @@
 
 	<!-- The JS SDK Login Button -->
 	
-	<fb:login-button scope="public_profile,email" onlogin="checkLoginState();"></fb:login-button>
-	<h3>Login with fb <a id="fb_login" href="">Fejsbok</a></h3>
+	<?php
+	if(class_exists('NextendSocialLogin', false)){
+    	echo NextendSocialLogin::renderButtonsWithContainer();
+	}
+	?>
+
+	<!--<fb:login-button scope="public_profile,email" onlogin="checkLoginState();"></fb:login-button>-->
+	
+	<!--<h3>Login with fb <a id="fb_login" href="">Fejsbok</a></h3>-->
 
 
 	<div id="status">
