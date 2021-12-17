@@ -1,3 +1,6 @@
+
+
+
 <form id="login" class="ajax-auth" action="login" method="post">
 	<h1>
 		<?php _e('Log in', 'bootscore') ?>
@@ -23,6 +26,8 @@
 	<hr />
 
 	<!-- The JS SDK Login Button -->
+
+	<div class="fb-login-button" data-width="100" data-size="large" data-button-type="continue_with" data-layout="default" data-auto-logout-link="false" data-use-continue-as="false" ></div>
 	
 	<?php
 	if(class_exists('NextendSocialLogin', false)){
