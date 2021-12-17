@@ -30,14 +30,6 @@
 	}
 	?>
 
-	<!--<fb:login-button scope="public_profile,email" onlogin="checkLoginState();"></fb:login-button>-->
-	
-	<!--<h3>Login with fb <a id="fb_login" href="">Fejsbok</a></h3>-->
-
-
-	<div id="status">
-	</div>
-
 	<a class="close" href="">
 		<i class="fas fa-window-close fa-lg"></i>
 	</a>
@@ -49,8 +41,6 @@
 	<h3> <?php _e('Already a member?', 'bootscore') ?>
 		<a id="pop_login" href=""><?php _e('Log in', 'bootscore') ?></a>
 	</h3>
-
-	
 
 	<hr />
 
@@ -66,6 +56,12 @@
 	<label for="password2"><?php _e('Confirm password', 'bootscore') ?></label>
 	<input type="password" id="password2" class="required w-100" name="password2">
 	<input class="submit_button btn btn-dark w-100 my-3" type="submit" value="<?php _e('Create an account', 'bootscore') ?>"></input>
+
+	<?php
+	if(class_exists('NextendSocialLogin', false)){
+    	echo NextendSocialLogin::renderButtonsWithContainer();
+	}
+	?>
 
 	<a class="close" href="">
 		<i class="fas fa-window-close fa-lg"></i>
